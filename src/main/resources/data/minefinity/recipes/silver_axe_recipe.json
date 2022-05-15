@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SB",
+    " B"
+  ],
+  "key": {
+    "S": {
+      "item": "minefinity:silver_ingot"
+    },
+    "B": {
+      "item": "minefinity:basalt_rod"
+    }
+  },
+  "result": {
+    "item": "minefinity:silver_axe",
+    "count": 1
+  }
+}

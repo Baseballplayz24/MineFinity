@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:ElectrumCasing"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "CUSTOM:BejeweledCrushingHammer"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:InfernalCrushingHammer"
+    },
+    "name": "infernal_crusher_recipe",
+    "namespace": "mod"
+  }
+}

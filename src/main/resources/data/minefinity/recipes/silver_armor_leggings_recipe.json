@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:silver_armor_leggings",
+    "count": 1
+  }
+}

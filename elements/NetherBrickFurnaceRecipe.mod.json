@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.NETHER_BRICK"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Blocks.NETHER_BRICK"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      },
+      {
+        "value": "Items.NETHERBRICK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NetherBrickFurnace"
+    },
+    "name": "nether_brick_furnace_recipe",
+    "namespace": "mod"
+  }
+}

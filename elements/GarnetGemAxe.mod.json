@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_axe",
+    "customModelName": "Normal",
+    "name": "Garnet Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 7.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Garnet"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

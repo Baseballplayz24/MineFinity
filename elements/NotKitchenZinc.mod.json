@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Not \"Kitchen Zinc\"",
+    "achievementDescription": "While true, Zinc can be found between y96 and y192, or below y-32. Find caves or cliffs and start looking!",
+    "achievementIcon": {
+      "value": "CUSTOM:ZincIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Chapter1"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"48\" y=\"30\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">2147483647</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ZincIngot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

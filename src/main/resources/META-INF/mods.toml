@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="minefinity"
+version="008"
+displayName="Minefinity"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Andrewthepika"
+description='''
+The mod to end all mods.
+'''
+
+[[dependencies.minefinity]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.minefinity]]
+    modId="just_enough_items-1.18.2"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.minefinity]]
+    modId="patchouli-1.18.2"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

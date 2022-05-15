@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:blazewood_planks"
+    }
+  },
+  "result": {
+    "item": "minefinity:blazewood_slab",
+    "count": 6
+  }
+}

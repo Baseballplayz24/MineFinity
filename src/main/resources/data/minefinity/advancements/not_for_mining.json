@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:iron_hammer"
+    },
+    "title": {
+      "translate": "advancements.not_for_mining.title"
+    },
+    "description": {
+      "translate": "advancements.not_for_mining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "not_for_mining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:iron_hammer"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minefinity:not_kitchen_zinc"
+}

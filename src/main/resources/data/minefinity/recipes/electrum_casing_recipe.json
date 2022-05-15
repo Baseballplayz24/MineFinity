@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "CWC",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "minefinity:electrum_ingot"
+    },
+    "C": {
+      "item": "minecraft:crimson_planks"
+    },
+    "W": {
+      "item": "minefinity:wood_casing"
+    }
+  },
+  "result": {
+    "item": "minefinity:electrum_casing",
+    "count": 2
+  }
+}

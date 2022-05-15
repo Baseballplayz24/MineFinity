@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      },
+      {
+        "value": "CUSTOM:RawZinc"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawZincBlock"
+    },
+    "name": "raw_zinc_to_block",
+    "namespace": "mod"
+  }
+}

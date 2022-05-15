@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minefinity:blazewood_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minefinity:blazewood_fence",
+    "count": 3
+  }
+}

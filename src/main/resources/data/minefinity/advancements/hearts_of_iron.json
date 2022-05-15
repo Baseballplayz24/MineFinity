@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:iron_heart"
+    },
+    "title": {
+      "translate": "advancements.hearts_of_iron.title"
+    },
+    "description": {
+      "translate": "advancements.hearts_of_iron.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hearts_of_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:iron_heart"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minefinity:chapter_1"
+}

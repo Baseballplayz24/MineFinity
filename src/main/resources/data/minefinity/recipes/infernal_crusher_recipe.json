@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ENE",
+    "SLS",
+    "EBE"
+  ],
+  "key": {
+    "E": {
+      "item": "minefinity:electrum_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minefinity:silver_ingot"
+    },
+    "L": {
+      "item": "minefinity:electrum_casing"
+    },
+    "B": {
+      "item": "minefinity:bejeweled_crushing_hammer"
+    }
+  },
+  "result": {
+    "item": "minefinity:infernal_crushing_hammer",
+    "count": 1
+  }
+}

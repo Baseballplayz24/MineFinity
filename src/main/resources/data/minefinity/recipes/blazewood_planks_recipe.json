@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:blazewood_log"
+    }
+  ],
+  "result": {
+    "item": "minefinity:blazewood_planks",
+    "count": 4
+  }
+}

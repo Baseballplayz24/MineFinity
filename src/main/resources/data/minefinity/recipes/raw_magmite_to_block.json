@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:raw_magmite"
+    }
+  },
+  "result": {
+    "item": "minefinity:raw_magmite_block",
+    "count": 1
+  }
+}

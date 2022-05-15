@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:electrum_block"
+    }
+  ],
+  "result": {
+    "item": "minefinity:electrum_ingot",
+    "count": 9
+  }
+}

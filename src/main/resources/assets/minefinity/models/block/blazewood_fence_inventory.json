@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "minefinity:blocks/warped_planks",
+    "particle": "minefinity:blocks/warped_planks"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minefinity:textures/marble.png",
+    "icon": {
+      "item": "minecraft:white_concrete"
+    },
+    "title": {
+      "translate": "advancements.chapter_1.title"
+    },
+    "description": {
+      "translate": "advancements.chapter_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "chapter_1": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:raw_tin"
+    }
+  },
+  "result": {
+    "item": "minefinity:raw_tin_block",
+    "count": 1
+  }
+}

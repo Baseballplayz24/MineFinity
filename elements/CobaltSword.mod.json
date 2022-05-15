@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_sword",
+    "customModelName": "Normal",
+    "name": "Cobalt Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 1.8,
+    "enchantability": 28,
+    "damageVsEntity": 6.0,
+    "usageCount": 3072,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CobaltIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

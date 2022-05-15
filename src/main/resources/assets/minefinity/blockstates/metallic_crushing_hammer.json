@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minefinity:block/metallic_crushing_hammer"
+    },
+    "facing=east": {
+      "model": "minefinity:block/metallic_crushing_hammer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minefinity:block/metallic_crushing_hammer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minefinity:block/metallic_crushing_hammer",
+      "y": 270
+    }
+  }
+}

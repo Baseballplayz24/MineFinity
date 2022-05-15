@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:cobalt_block",
+    "count": 1
+  }
+}

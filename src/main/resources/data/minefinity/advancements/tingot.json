@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:tin_ingot"
+    },
+    "title": {
+      "translate": "advancements.tingot.title"
+    },
+    "description": {
+      "translate": "advancements.tingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:tin_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minefinity:chapter_1"
+}

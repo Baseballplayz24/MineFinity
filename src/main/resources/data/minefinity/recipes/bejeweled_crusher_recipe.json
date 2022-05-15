@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "IMI",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "D": {
+      "item": "minefinity:diamond_hammer"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "M": {
+      "item": "minefinity:metallic_crushing_hammer"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "minefinity:bejeweled_crushing_hammer",
+    "count": 1
+  }
+}

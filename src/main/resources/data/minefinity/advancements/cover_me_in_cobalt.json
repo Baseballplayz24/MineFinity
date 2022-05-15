@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:cobalt_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.cover_me_in_cobalt.title"
+    },
+    "description": {
+      "translate": "advancements.cover_me_in_cobalt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cover_me_in_cobalt": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "minefinity:did_i_install_tinkers"
+}

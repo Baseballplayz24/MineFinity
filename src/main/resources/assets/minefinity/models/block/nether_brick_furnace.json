@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/netherbrick",
+    "up": "minefinity:blocks/netherbrick",
+    "north": "minefinity:blocks/nether_brick",
+    "east": "minefinity:blocks/netherbrick",
+    "south": "minefinity:blocks/netherbrick",
+    "west": "minefinity:blocks/netherbrick",
+    "particle": "minefinity:blocks/netherbrick"
+  }
+}

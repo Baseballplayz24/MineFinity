@@ -1,0 +1,65 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.WAXED_COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:TinBlock"
+      },
+      {
+        "value": "CUSTOM:NickelBlock"
+      },
+      {
+        "value": "CUSTOM:ZincBlock"
+      },
+      {
+        "value": "CUSTOM:SilverBlock"
+      },
+      {
+        "value": "CUSTOM:BronzeBlock"
+      },
+      {
+        "value": "CUSTOM:BrassBlock"
+      },
+      {
+        "value": "CUSTOM:ConstantanBlock"
+      },
+      {
+        "value": "CUSTOM:RoseGoldBlock"
+      },
+      {
+        "value": "CUSTOM:ElectrumBlock"
+      },
+      {
+        "value": "CUSTOM:CobaltBlock"
+      },
+      {
+        "value": "CUSTOM:MagmiteBlock"
+      },
+      {
+        "value": "CUSTOM:GarnetBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "beacon_base_blocks",
+    "namespace": "minecraft"
+  }
+}

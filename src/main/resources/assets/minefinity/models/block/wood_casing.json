@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/planks_birch",
+    "up": "minefinity:blocks/planks_birch",
+    "north": "minefinity:blocks/planks_birch",
+    "east": "minefinity:blocks/planks_birch",
+    "south": "minefinity:blocks/planks_birch",
+    "west": "minefinity:blocks/planks_birch",
+    "particle": "minefinity:blocks/planks_birch"
+  }
+}

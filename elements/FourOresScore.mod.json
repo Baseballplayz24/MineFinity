@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Four Ores? Score!",
+    "achievementDescription": "Make the Infernal Crushing Hammer, which can be used on Cobalt. Requires an Electrum Casing!",
+    "achievementIcon": {
+      "value": "CUSTOM:InfernalCrushingHammer"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 5,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:VeryVeryNotForMining"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"58\" y=\"22\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:InfernalCrushingHammer</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

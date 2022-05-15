@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CNC",
+    "ETH",
+    "BRO"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:cobalt_ingot"
+    },
+    "N": {
+      "item": "minefinity:netherheart_forge_crafting_module"
+    },
+    "E": {
+      "item": "minefinity:netherheart_forge_alloying_module"
+    },
+    "T": {
+      "item": "minecraft:netherite_block"
+    },
+    "H": {
+      "item": "minefinity:netherheart_forge_smelting_module"
+    },
+    "B": {
+      "item": "minefinity:bronze_block"
+    },
+    "R": {
+      "item": "minefinity:brass_block"
+    },
+    "O": {
+      "item": "minefinity:constantan_block"
+    }
+  },
+  "result": {
+    "item": "minefinity:netherheart_forge",
+    "count": 1
+  }
+}

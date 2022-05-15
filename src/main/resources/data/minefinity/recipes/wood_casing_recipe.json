@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZPZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "item": "minefinity:zinc_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minefinity:wood_casing",
+    "count": 2
+  }
+}

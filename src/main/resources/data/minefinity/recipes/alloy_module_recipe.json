@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CNC",
+    "NEN",
+    "CNC"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:cobalt_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minefinity:nether_brick_furnace"
+    }
+  },
+  "result": {
+    "item": "minefinity:netherheart_forge_alloying_module",
+    "count": 1
+  }
+}

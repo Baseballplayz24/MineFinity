@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_pickaxe",
+    "customModelName": "Normal",
+    "name": "Garnet Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 3.0,
+    "usageCount": 441,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Garnet"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

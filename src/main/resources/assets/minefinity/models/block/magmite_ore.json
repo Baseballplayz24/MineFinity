@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minefinity:blocks/magmite_ore",
+    "particle": "minefinity:blocks/magmite_ore"
+  }
+}

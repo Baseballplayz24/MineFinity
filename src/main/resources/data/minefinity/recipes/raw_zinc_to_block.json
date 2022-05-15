@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:raw_zinc"
+    }
+  },
+  "result": {
+    "item": "minefinity:raw_zinc_block",
+    "count": 1
+  }
+}

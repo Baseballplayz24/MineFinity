@@ -1,0 +1,519 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 422,
+    "height": 228,
+    "inventoryOffsetX": 126,
+    "inventoryOffsetY": 32,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 24,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 42,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 60,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 24,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 42,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 60,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 78,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 42,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 60,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 11,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #11",
+          "x": 78,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 12,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #12",
+          "x": 24,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 13,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #13",
+          "x": 42,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 14,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #14",
+          "x": 60,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 15,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #15",
+          "x": 78,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "threelongrightarrow.png",
+          "use1Xscale": false,
+          "name": "threelongrightarrow.png",
+          "x": 96,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 16,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #16",
+          "x": 114,
+          "y": 35
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 17,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #17",
+          "x": 150,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Crafting 4x4",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Crafting 4x4",
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "4x4 Craft",
+          "onClick": {
+            "name": "NetherheartForge4x4Crafting"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "4x4 Craft",
+          "x": 24,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 18,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #18",
+          "x": 51,
+          "y": 134
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SoulCoal"
+          },
+          "id": 19,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #19",
+          "x": 51,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soulcoalburning.png",
+          "use1Xscale": false,
+          "name": "soulcoalburning.png",
+          "x": 51,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "threelongrightarrow.png",
+          "use1Xscale": false,
+          "name": "threelongrightarrow.png",
+          "x": 69,
+          "y": 152
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 20,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #20",
+          "x": 123,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Instant Smelting via Soul Coal",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Instant Smelting via Soul Coal",
+          "x": 15,
+          "y": 188
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 21,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #21",
+          "x": 294,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 22,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #22",
+          "x": 330,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 23,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #23",
+          "x": 366,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 24,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #24",
+          "x": 330,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "alloyerarrow.png",
+          "use1Xscale": false,
+          "name": "alloyerarrow.png",
+          "x": 315,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Alloying",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Alloying",
+          "x": 375,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Alloy Metals",
+          "width": 87,
+          "height": 20,
+          "name": "Alloy Metals",
+          "x": 294,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Netherheart Forge is a versatile",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Netherheart Forge is a versatile",
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "block fit for many different tasks.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "block fit for many different tasks.",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x4 craft, insta-smelt or",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x4 craft, insta-smelt or",
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "create metal alloys.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "create metal alloys.",
+          "x": 114,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

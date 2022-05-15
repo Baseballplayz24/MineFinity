@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:zinc_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:zinc_block",
+    "count": 1
+  }
+}

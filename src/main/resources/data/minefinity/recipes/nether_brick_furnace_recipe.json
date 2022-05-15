@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NFN",
+    "FEF",
+    "EEE"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_bricks"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "E": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "minefinity:nether_brick_furnace",
+    "count": 1
+  }
+}

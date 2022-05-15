@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "RWR",
+    "CGC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "I": {
+      "item": "minefinity:iron_hammer"
+    },
+    "R": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minefinity:wood_casing"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:metallic_crushing_hammer",
+    "count": 1
+  }
+}

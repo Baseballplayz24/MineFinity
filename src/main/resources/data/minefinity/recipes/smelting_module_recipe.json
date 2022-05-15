@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CNC",
+    "NFN",
+    "CNC"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:cobalt_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "minefinity:netherheart_forge_smelting_module",
+    "count": 1
+  }
+}

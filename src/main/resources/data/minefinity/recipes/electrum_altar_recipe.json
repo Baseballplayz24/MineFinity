@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "ELE",
+    "GEG"
+  ],
+  "key": {
+    "G": {
+      "item": "minefinity:garnet"
+    },
+    "E": {
+      "item": "minefinity:electrum_ingot"
+    },
+    "L": {
+      "item": "minefinity:electrum_casing"
+    }
+  },
+  "result": {
+    "item": "minefinity:electrum_altar",
+    "count": 1
+  }
+}

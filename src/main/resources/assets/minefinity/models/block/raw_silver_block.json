@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/raw_gold_block",
+    "up": "minefinity:blocks/raw_gold_block",
+    "north": "minefinity:blocks/raw_gold_block",
+    "east": "minefinity:blocks/raw_gold_block",
+    "south": "minefinity:blocks/raw_gold_block",
+    "west": "minefinity:blocks/raw_gold_block",
+    "particle": "minefinity:blocks/raw_gold_block"
+  }
+}

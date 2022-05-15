@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:cobalt_heart"
+    },
+    "title": {
+      "translate": "advancements.netherheart_yes_forge.title"
+    },
+    "description": {
+      "translate": "advancements.netherheart_yes_forge.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherheart_yes_forge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:cobalt_heart"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minefinity:netherheart_not_forge"
+}

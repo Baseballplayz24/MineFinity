@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      },
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagmiteArmor.body"
+    },
+    "name": "magmite_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

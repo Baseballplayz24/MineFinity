@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_hoe",
+    "customModelName": "Normal",
+    "name": "Garnet Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 3.0,
+    "usageCount": 1651,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Garnet"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

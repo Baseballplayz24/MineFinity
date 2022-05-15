@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gold_axe",
+    "customModelName": "Normal",
+    "name": "Silver Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 360,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SilverIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

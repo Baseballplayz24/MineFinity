@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Chapter 1: A Long Journey",
+    "achievementDescription": "Many roads lie ahead... many obstacles stand in your way.",
+    "achievementIcon": {
+      "value": "Blocks.CONCRETE#0"
+    },
+    "background": "marble.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"35\" y=\"52\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Blazing Jungle",
+    "groundBlock": {
+      "value": "CUSTOM:BurningNylium"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:BurntNetherrack"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnBiomeNether": true,
+    "spawnInCaves": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 50,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "CUSTOM:BlazewoodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:BlazewartBlock"
+    },
+    "treeVines": {
+      "value": "Blocks.SHROOMLIGHT"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NETHER",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityBlaze"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityGhast"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityPiglin"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 100,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/burnt_netherrack",
+    "up": "minefinity:blocks/grass_carried",
+    "north": "minefinity:blocks/burntnetherrack",
+    "east": "minefinity:blocks/burntnetherrack",
+    "south": "minefinity:blocks/burntnetherrack",
+    "west": "minefinity:blocks/burntnetherrack",
+    "particle": "minefinity:blocks/burnt_netherrack"
+  }
+}

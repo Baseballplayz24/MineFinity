@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minefinity:wood_casing",
+    "minefinity:metallic_crushing_hammer",
+    "minefinity:bejeweled_crushing_hammer",
+    "minefinity:electrum_casing",
+    "minefinity:infernal_crushing_hammer",
+    "minefinity:blazewood_wood",
+    "minefinity:blazewood_log",
+    "minefinity:blazewood_planks"
+  ]
+}

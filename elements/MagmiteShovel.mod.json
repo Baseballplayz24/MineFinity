@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_shovel",
+    "customModelName": "Normal",
+    "name": "Magmite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 2.25,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagmiteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

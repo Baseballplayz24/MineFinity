@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/crimson_planks",
+    "up": "minefinity:blocks/electrumaltartop",
+    "north": "minefinity:blocks/electrum_block",
+    "east": "minefinity:blocks/electrum_block",
+    "south": "minefinity:blocks/electrum_block",
+    "west": "minefinity:blocks/electrum_block",
+    "particle": "minefinity:blocks/crimson_planks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minefinity:block/netherheart_forge"
+    },
+    "facing=east": {
+      "model": "minefinity:block/netherheart_forge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minefinity:block/netherheart_forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minefinity:block/netherheart_forge",
+      "y": 270
+    }
+  }
+}

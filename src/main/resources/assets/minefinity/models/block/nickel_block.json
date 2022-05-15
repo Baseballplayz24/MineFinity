@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minefinity:blocks/nickel_ore_block",
+    "particle": "minefinity:blocks/nickel_ore_block"
+  }
+}

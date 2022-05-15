@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "CUSTOM:NetherheartForgeCraftingModule"
+      },
+      {
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "CUSTOM:NetherheartForgeAlloyingModule"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:NetherheartForgeSmeltingModule"
+      },
+      {
+        "value": "CUSTOM:BronzeBlock"
+      },
+      {
+        "value": "CUSTOM:BrassBlock"
+      },
+      {
+        "value": "CUSTOM:ConstantanBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NetherheartForge"
+    },
+    "name": "netherheart_forge_recipe",
+    "namespace": "mod"
+  }
+}

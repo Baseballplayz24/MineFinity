@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:bronze_block",
+    "count": 1
+  }
+}

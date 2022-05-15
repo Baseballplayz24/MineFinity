@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:diamond_hammer"
+    },
+    "title": {
+      "translate": "advancements.very_not_for_mining.title"
+    },
+    "description": {
+      "translate": "advancements.very_not_for_mining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "very_not_for_mining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:diamond_hammer"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "minefinity:first_workstation"
+}

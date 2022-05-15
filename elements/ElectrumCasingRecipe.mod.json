@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "Blocks.CRIMSON_PLANKS"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "Blocks.CRIMSON_PLANKS"
+      },
+      {
+        "value": "CUSTOM:WoodCasing"
+      },
+      {
+        "value": "Blocks.CRIMSON_PLANKS"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "Blocks.CRIMSON_PLANKS"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElectrumCasing"
+    },
+    "name": "electrum_casing_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:electrum_ingot"
+    },
+    "title": {
+      "translate": "advancements.electricium.title"
+    },
+    "description": {
+      "translate": "advancements.electricium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "electricium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:electrum_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "minefinity:sliver_of_silver"
+}

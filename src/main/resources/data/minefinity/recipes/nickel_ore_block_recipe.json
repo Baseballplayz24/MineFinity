@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:nickel_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:nickel_block",
+    "count": 1
+  }
+}

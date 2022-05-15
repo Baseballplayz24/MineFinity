@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/cryingobsidian",
+    "up": "minefinity:blocks/cobaltanchortop",
+    "north": "minefinity:blocks/crying_obsidian",
+    "east": "minefinity:blocks/crying_obsidian",
+    "south": "minefinity:blocks/crying_obsidian",
+    "west": "minefinity:blocks/crying_obsidian",
+    "particle": "minefinity:blocks/cryingobsidian"
+  }
+}

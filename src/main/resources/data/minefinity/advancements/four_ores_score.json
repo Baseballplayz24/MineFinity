@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:infernal_crushing_hammer"
+    },
+    "title": {
+      "translate": "advancements.four_ores_score.title"
+    },
+    "description": {
+      "translate": "advancements.four_ores_score.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "four_ores_score": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:infernal_crushing_hammer"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "minefinity:very_very_not_for_mining"
+}

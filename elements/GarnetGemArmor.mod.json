@@ -1,0 +1,62 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "diamond_helmet",
+    "enableBody": true,
+    "textureBody": "diamond_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "diamond_leggings",
+    "enableBoots": true,
+    "textureBoots": "diamond_boots",
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityNether"
+    },
+    "armorTextureFile": "garnet_",
+    "helmetName": "Garnet Helmet",
+    "bodyName": "Garnet Chestplate",
+    "leggingsName": "Garnet Leggings",
+    "bootsName": "Garnet Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 15,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 20,
+    "toughness": 2.0,
+    "knockbackResistance": 0.05,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Garnet"
+      }
+    ]
+  }
+}

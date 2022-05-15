@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:netherheart_forge"
+    },
+    "title": {
+      "translate": "advancements.forgery.title"
+    },
+    "description": {
+      "translate": "advancements.forgery.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forgery": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:netherheart_forge"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minefinity:did_i_install_tinkers"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/deepslatezincore",
+    "up": "minefinity:blocks/deepslatezincore",
+    "north": "minefinity:blocks/deepslatezincore",
+    "east": "minefinity:blocks/deepslatezincore",
+    "south": "minefinity:blocks/deepslatezincore",
+    "west": "minefinity:blocks/deepslatezincore",
+    "particle": "minefinity:blocks/deepslatezincore"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:magmite_ingot"
+    }
+  ],
+  "result": {
+    "item": "minefinity:magmite_nugget",
+    "count": 9
+  }
+}

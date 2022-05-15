@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MAM",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "minefinity:magmite_ingot"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "minefinity:magmite_apple",
+    "count": 1
+  }
+}

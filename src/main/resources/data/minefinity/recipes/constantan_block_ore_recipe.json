@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:constantan_block"
+    }
+  ],
+  "result": {
+    "item": "minefinity:constantan_ingot",
+    "count": 9
+  }
+}

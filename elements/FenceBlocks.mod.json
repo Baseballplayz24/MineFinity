@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BlazewoodFence"
+      },
+      {
+        "value": "CUSTOM:BlazewoodFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

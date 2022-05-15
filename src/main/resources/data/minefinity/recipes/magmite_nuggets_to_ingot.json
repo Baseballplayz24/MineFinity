@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:constantan_nugget"
+    },
+    "M": {
+      "item": "minefinity:magmite_nugget"
+    }
+  },
+  "result": {
+    "item": "minefinity:magmite_ingot",
+    "count": 1
+  }
+}

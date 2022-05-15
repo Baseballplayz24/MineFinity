@@ -1,0 +1,3570 @@
+{
+  "mod_elements": [
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore"
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block"
+    },
+    {
+      "name": "TinOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_block_recipe"
+    },
+    {
+      "name": "TinBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_ore_recipe"
+    },
+    {
+      "name": "TinOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_smelting"
+    },
+    {
+      "name": "RawTin",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin"
+    },
+    {
+      "name": "RawTinSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_smelting"
+    },
+    {
+      "name": "RawTinBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_block"
+    },
+    {
+      "name": "RawTinToBlock",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_to_block"
+    },
+    {
+      "name": "RawTinFromBlock",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_from_block"
+    },
+    {
+      "name": "RawIronBlockSmelting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_iron_block_smelting"
+    },
+    {
+      "name": "RawGoldBlockSmelting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_gold_block_smelting"
+    },
+    {
+      "name": "RawCopperBlockSmelting",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_copper_block_smelting"
+    },
+    {
+      "name": "RawTinBlockSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_block_smelting"
+    },
+    {
+      "name": "MinefinityBasics",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minefinity_basics"
+    },
+    {
+      "name": "DeepslateTinOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tin_ore"
+    },
+    {
+      "name": "DeepslateTinOreSmelting",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tin_ore_smelting"
+    },
+    {
+      "name": "Marble",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble"
+    },
+    {
+      "name": "MarbleCaves",
+      "type": "biome",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_caves"
+    },
+    {
+      "name": "MarbleDiamondOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_diamond_ore"
+    },
+    {
+      "name": "Lignite",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite"
+    },
+    {
+      "name": "LigniteChunk",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_chunk"
+    },
+    {
+      "name": "LigniteAsFuel",
+      "type": "fuel",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_as_fuel"
+    },
+    {
+      "name": "LigniteChunkAsFuel",
+      "type": "fuel",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_chunk_as_fuel"
+    },
+    {
+      "name": "LigniteBlockToChunks",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_block_to_chunks"
+    },
+    {
+      "name": "LigniteChunksToBlock",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_chunks_to_block"
+    },
+    {
+      "name": "LigniteCaves",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_caves"
+    },
+    {
+      "name": "LigniteIronOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_iron_ore"
+    },
+    {
+      "name": "MarbleDiamondOreSmelting",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_diamond_ore_smelting"
+    },
+    {
+      "name": "LigniteIronSmelting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lignite_iron_smelting"
+    },
+    {
+      "name": "TinNugget",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nugget"
+    },
+    {
+      "name": "TinNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nuggets_to_ingot"
+    },
+    {
+      "name": "TinIngotToNuggets",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_to_nuggets"
+    },
+    {
+      "name": "StoneceliumUpdateTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecelium_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonecelium",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecelium"
+    },
+    {
+      "name": "NickelIngot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ingot"
+    },
+    {
+      "name": "NickelOre",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore"
+    },
+    {
+      "name": "NickelBlock",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_block"
+    },
+    {
+      "name": "NickelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore_block_recipe"
+    },
+    {
+      "name": "NickelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_block_ore_recipe"
+    },
+    {
+      "name": "NickelOreSmelting",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore_smelting"
+    },
+    {
+      "name": "MushroomCaves",
+      "type": "biome",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_caves"
+    },
+    {
+      "name": "RawNickel",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel"
+    },
+    {
+      "name": "RawNickelSmelting",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_smelting"
+    },
+    {
+      "name": "RawNickelBlock",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_block"
+    },
+    {
+      "name": "RawNickelToBlock",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_to_block"
+    },
+    {
+      "name": "RawNickelFromBlock",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_from_block"
+    },
+    {
+      "name": "RawNickelBlockSmelting",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel_block_smelting"
+    },
+    {
+      "name": "DeepslateNickelOre",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_nickel_ore"
+    },
+    {
+      "name": "NickelNugget",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_nugget"
+    },
+    {
+      "name": "NickelNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_nuggets_to_ingot"
+    },
+    {
+      "name": "NickelIngotToNuggets",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ingot_to_nuggets"
+    },
+    {
+      "name": "CopperNugget",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget"
+    },
+    {
+      "name": "CopperNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nuggets_to_ingot"
+    },
+    {
+      "name": "CopperIngotToNuggets",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ingot_to_nuggets"
+    },
+    {
+      "name": "ZincIngot",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ingot"
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore"
+    },
+    {
+      "name": "ZincBlock",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block"
+    },
+    {
+      "name": "ZincOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_block_recipe"
+    },
+    {
+      "name": "ZincBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block_ore_recipe"
+    },
+    {
+      "name": "ZincOreSmelting",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_smelting"
+    },
+    {
+      "name": "RawZinc",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc"
+    },
+    {
+      "name": "RawZincSmelting",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc_smelting"
+    },
+    {
+      "name": "DeepslateZincOre",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_zinc_ore"
+    },
+    {
+      "name": "DeepslateZincOreSmelting",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_zinc_ore_smelting"
+    },
+    {
+      "name": "RawZincBlock",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc_block"
+    },
+    {
+      "name": "RawZincToBlock",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc_to_block"
+    },
+    {
+      "name": "RawZincFromBlock",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc_from_block"
+    },
+    {
+      "name": "RawZincBlockSmelting",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zinc_block_smelting"
+    },
+    {
+      "name": "ZincNugget",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_nugget"
+    },
+    {
+      "name": "ZincNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_nuggets_to_ingot"
+    },
+    {
+      "name": "ZincIngotToNuggets",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ingot_to_nuggets"
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust"
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust"
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust"
+    },
+    {
+      "name": "TinDust",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust"
+    },
+    {
+      "name": "NickelDust",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_dust"
+    },
+    {
+      "name": "ZincDust",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_dust"
+    },
+    {
+      "name": "NetheriteDust",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dust"
+    },
+    {
+      "name": "IronDustSmelting",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust_smelting"
+    },
+    {
+      "name": "GoldDustSmelting",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_smelting"
+    },
+    {
+      "name": "CopperDustSmelting",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust_smelting"
+    },
+    {
+      "name": "TinDustSmelting",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust_smelting"
+    },
+    {
+      "name": "NickelDustSmelting",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_dust_smelting"
+    },
+    {
+      "name": "ZincDustSmelting",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_dust_smelting"
+    },
+    {
+      "name": "IronHammer",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer"
+    },
+    {
+      "name": "WoodCasing",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_casing"
+    },
+    {
+      "name": "IronHammerRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_recipe"
+    },
+    {
+      "name": "WoodCasingRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_casing_recipe"
+    },
+    {
+      "name": "CrusherT1Operation",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_t_1_operation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrushingHammer1GUI",
+      "type": "gui",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushing_hammer_1_gui"
+    },
+    {
+      "name": "MetallicCrushingHammer",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metallic_crushing_hammer"
+    },
+    {
+      "name": "CrusherT2Operation",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_t_2_operation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteDustSmelting",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dust_smelting"
+    },
+    {
+      "name": "CrushingHammer2GUI",
+      "type": "gui",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushing_hammer_2_gui"
+    },
+    {
+      "name": "DiamondHammer",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer"
+    },
+    {
+      "name": "BejeweledCrushingHammer",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bejeweled_crushing_hammer"
+    },
+    {
+      "name": "DiamondHammerRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer_recipe"
+    },
+    {
+      "name": "MetallicCrusherRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metallic_crusher_recipe"
+    },
+    {
+      "name": "BejeweledCrusherRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bejeweled_crusher_recipe"
+    },
+    {
+      "name": "Chapter1",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chapter_1"
+    },
+    {
+      "name": "RobsAndCoppers",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robs_and_coppers"
+    },
+    {
+      "name": "Tingot",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tingot"
+    },
+    {
+      "name": "IllGiveYouMyFiveCents",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ill_give_you_my_five_cents"
+    },
+    {
+      "name": "NotKitchenZinc",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_kitchen_zinc"
+    },
+    {
+      "name": "MachineFramesPart1",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_frames_part_1"
+    },
+    {
+      "name": "NotForMining",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_for_mining"
+    },
+    {
+      "name": "FirstWorkstation",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_workstation"
+    },
+    {
+      "name": "VeryNotForMining",
+      "type": "achievement",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_not_for_mining"
+    },
+    {
+      "name": "ShinyNewCrusher",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shiny_new_crusher"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block"
+    },
+    {
+      "name": "SilverOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_recipe"
+    },
+    {
+      "name": "SilverBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_ore_recipe"
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting"
+    },
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver"
+    },
+    {
+      "name": "SilverDustSmelting",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_smelting"
+    },
+    {
+      "name": "RawSilverBlock",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_block"
+    },
+    {
+      "name": "RawSilverSmelting",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_smelting"
+    },
+    {
+      "name": "RawSilverToBlock",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_to_block"
+    },
+    {
+      "name": "RawSilverFromBlock",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_from_block"
+    },
+    {
+      "name": "RawSilverBlockSmelting",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_block_smelting"
+    },
+    {
+      "name": "SilverNugget",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nugget"
+    },
+    {
+      "name": "SilverNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nuggets_to_ingot"
+    },
+    {
+      "name": "SilverIngotToNuggets",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_to_nuggets"
+    },
+    {
+      "name": "SilverPickaxe",
+      "type": "tool",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_pickaxe"
+    },
+    {
+      "name": "SilverAxe",
+      "type": "tool",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_axe"
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword"
+    },
+    {
+      "name": "SilverShovel",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_shovel"
+    },
+    {
+      "name": "SilverHoe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_hoe"
+    },
+    {
+      "name": "SilverPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_pickaxe_recipe"
+    },
+    {
+      "name": "SilverAxeRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_axe_recipe"
+    },
+    {
+      "name": "SilverSwordRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_recipe"
+    },
+    {
+      "name": "SilverShovelRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_shovel_recipe"
+    },
+    {
+      "name": "SilverHoeRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_hoe_recipe"
+    },
+    {
+      "name": "MinefinityNether",
+      "type": "tab",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minefinity_nether"
+    },
+    {
+      "name": "BasaltRod",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_rod"
+    },
+    {
+      "name": "BasaltRodRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basalt_rod_recipe"
+    },
+    {
+      "name": "SilverPickaxeItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_pickaxe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverAxeItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_axe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverShovelItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_shovel_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverHoeItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_hoe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverArmor",
+      "type": "armor",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SilverArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_helmet_recipe"
+    },
+    {
+      "name": "SilverArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_body_recipe"
+    },
+    {
+      "name": "SilverArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_leggings_recipe"
+    },
+    {
+      "name": "SilverArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_armor_boots_recipe"
+    },
+    {
+      "name": "SliverOfSilver",
+      "type": "achievement",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliver_of_silver"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block"
+    },
+    {
+      "name": "BronzeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore_block_recipe"
+    },
+    {
+      "name": "BronzeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block_ore_recipe"
+    },
+    {
+      "name": "BrassIngot",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_ingot"
+    },
+    {
+      "name": "BrassBlock",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_block"
+    },
+    {
+      "name": "BrassOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_ore_block_recipe"
+    },
+    {
+      "name": "BrassBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_block_ore_recipe"
+    },
+    {
+      "name": "ConstantanIngot",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_ingot"
+    },
+    {
+      "name": "ConstantanBlock",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_block"
+    },
+    {
+      "name": "ConstantanOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_ore_block_recipe"
+    },
+    {
+      "name": "ConstantanBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_block_ore_recipe"
+    },
+    {
+      "name": "BronzeNugget",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_nugget"
+    },
+    {
+      "name": "BronzeIngotToNuggets",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot_to_nuggets"
+    },
+    {
+      "name": "BronzeNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_nuggets_to_ingot"
+    },
+    {
+      "name": "BrassNugget",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_nugget"
+    },
+    {
+      "name": "BrassIngotToNuggets",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_ingot_to_nuggets"
+    },
+    {
+      "name": "BrassNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_nuggets_to_ingot"
+    },
+    {
+      "name": "ConstantanNugget",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_nugget"
+    },
+    {
+      "name": "ConstantanIngotToNuggets",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_ingot_to_nuggets"
+    },
+    {
+      "name": "ConstantanNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constantan_nuggets_to_ingot"
+    },
+    {
+      "name": "NetherBrickFurnaceGUI",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_brick_furnace_gui"
+    },
+    {
+      "name": "RoseGoldIngot",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_ingot"
+    },
+    {
+      "name": "RoseGoldBlock",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_block"
+    },
+    {
+      "name": "RoseGoldOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_ore_block_recipe"
+    },
+    {
+      "name": "RoseGoldBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_block_ore_recipe"
+    },
+    {
+      "name": "RoseGoldNugget",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_nugget"
+    },
+    {
+      "name": "RoseGoldNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_nuggets_to_ingot"
+    },
+    {
+      "name": "RoseGoldNuggetsFromIngot",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_gold_nuggets_from_ingot"
+    },
+    {
+      "name": "ElectrumIngot",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot"
+    },
+    {
+      "name": "ElectrumBlock",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_block"
+    },
+    {
+      "name": "ElectrumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ore_block_recipe"
+    },
+    {
+      "name": "ElectrumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_block_ore_recipe"
+    },
+    {
+      "name": "ElectrumNugget",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_nugget"
+    },
+    {
+      "name": "ElectrumNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_nuggets_to_ingot"
+    },
+    {
+      "name": "ElectrumIngotToNuggets",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot_to_nuggets"
+    },
+    {
+      "name": "AlloyingInNetherBrickFurnace",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloying_in_nether_brick_furnace",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherBrickFurnace",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_brick_furnace"
+    },
+    {
+      "name": "NetherBrickFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_brick_furnace_recipe"
+    },
+    {
+      "name": "NetherTinOre",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_tin_ore"
+    },
+    {
+      "name": "ElectrumCasing",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_casing"
+    },
+    {
+      "name": "ElectrumCasingRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_casing_recipe"
+    },
+    {
+      "name": "NetheriteHammer",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer"
+    },
+    {
+      "name": "NetheriteHammerRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_recipe"
+    },
+    {
+      "name": "NetheriteNugget",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_nugget"
+    },
+    {
+      "name": "NetheriteNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_nuggets_to_ingot"
+    },
+    {
+      "name": "NetheriteIngotToNuggets",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_ingot_to_nuggets"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore"
+    },
+    {
+      "name": "CobaltBlock",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block"
+    },
+    {
+      "name": "CobaltOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_block_recipe"
+    },
+    {
+      "name": "CobaltBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block_ore_recipe"
+    },
+    {
+      "name": "CobaltOreSmelting",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_smelting"
+    },
+    {
+      "name": "RawCobalt",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cobalt"
+    },
+    {
+      "name": "RawCobaltSmelting",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cobalt_smelting"
+    },
+    {
+      "name": "RawCobaltBlock",
+      "type": "block",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cobalt_block"
+    },
+    {
+      "name": "RawCobaltToBlock",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cobalt_to_block"
+    },
+    {
+      "name": "RawCobaltFromBlock",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cobalt_from_block"
+    },
+    {
+      "name": "RawCobaltBlockSmelting",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cobalt_block_smelting"
+    },
+    {
+      "name": "CobaltDust",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_dust"
+    },
+    {
+      "name": "CobaltDustSmelting",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_dust_smelting"
+    },
+    {
+      "name": "CrushingHammer3GUI",
+      "type": "gui",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushing_hammer_3_gui"
+    },
+    {
+      "name": "CrusherT3Operation",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_t_3_operation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltNugget",
+      "type": "item",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_nugget"
+    },
+    {
+      "name": "CobaltNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_nuggets_to_ingot"
+    },
+    {
+      "name": "CobaltIngotToNuggets",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot_to_nuggets"
+    },
+    {
+      "name": "InfernalCrushingHammer",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_crushing_hammer"
+    },
+    {
+      "name": "InfernalCrusherRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernal_crusher_recipe"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltRod",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_rod"
+    },
+    {
+      "name": "CobaltRodRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_rod_recipe"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "NetherheartForge4x4Crafting",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_4x_4_crafting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulCoal",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_coal"
+    },
+    {
+      "name": "SoulCoalAsFuel",
+      "type": "fuel",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_coal_as_fuel"
+    },
+    {
+      "name": "NetherheartForgeInstaSmelting",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_insta_smelting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherheartForgeAlloying",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_alloying",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherheartForgeGUI",
+      "type": "gui",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_gui"
+    },
+    {
+      "name": "NetherheartForgeCraftingModule",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_crafting_module"
+    },
+    {
+      "name": "NetherheartForgeAlloyingModule",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_alloying_module"
+    },
+    {
+      "name": "NetherheartForgeSmeltingModule",
+      "type": "item",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_smelting_module"
+    },
+    {
+      "name": "CraftingModuleRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_module_recipe"
+    },
+    {
+      "name": "SmeltingModuleRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_module_recipe"
+    },
+    {
+      "name": "AlloyModuleRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloy_module_recipe"
+    },
+    {
+      "name": "NetherheartForge",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge"
+    },
+    {
+      "name": "Electricium",
+      "type": "achievement",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricium"
+    },
+    {
+      "name": "SoulCoalRoll",
+      "type": "achievement",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_coal_roll"
+    },
+    {
+      "name": "SoulCoalRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_coal_recipe"
+    },
+    {
+      "name": "MachineFramesPart2",
+      "type": "achievement",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_frames_part_2"
+    },
+    {
+      "name": "VeryVeryNotForMining",
+      "type": "achievement",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_very_not_for_mining"
+    },
+    {
+      "name": "FourOresScore",
+      "type": "achievement",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_ores_score"
+    },
+    {
+      "name": "DidIInstallTinkers",
+      "type": "achievement",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "did_i_install_tinkers"
+    },
+    {
+      "name": "Forgery",
+      "type": "achievement",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgery"
+    },
+    {
+      "name": "CoverMeInCobalt",
+      "type": "achievement",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_cobalt"
+    },
+    {
+      "name": "CoverMeInCobaltGrant",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_cobalt_grant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RidiculousDedication",
+      "type": "achievement",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ridiculous_dedication"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities"
+    },
+    {
+      "name": "BlazewoodWood",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_wood"
+    },
+    {
+      "name": "BlazewoodLog",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_log"
+    },
+    {
+      "name": "BlazewoodPlanks",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_planks"
+    },
+    {
+      "name": "BlazewoodStairs",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_stairs"
+    },
+    {
+      "name": "BlazewoodSlab",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_slab"
+    },
+    {
+      "name": "BlazewoodFence",
+      "type": "block",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_fence"
+    },
+    {
+      "name": "BlazewoodFenceGate",
+      "type": "block",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_fence_gate"
+    },
+    {
+      "name": "BlazewoodPressurePlate",
+      "type": "block",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_pressure_plate"
+    },
+    {
+      "name": "BlazewoodButton",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_button"
+    },
+    {
+      "name": "BlazewoodItemsTag",
+      "type": "tag",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_items_tag"
+    },
+    {
+      "name": "BlazewoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_wood_recipe"
+    },
+    {
+      "name": "BlazewoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_planks_recipe"
+    },
+    {
+      "name": "BlazewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_stairs_recipe"
+    },
+    {
+      "name": "BlazewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_slab_recipe"
+    },
+    {
+      "name": "BlazewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_fence_recipe"
+    },
+    {
+      "name": "BlazewoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_fence_gate_recipe"
+    },
+    {
+      "name": "BlazewoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_pressure_plate_recipe"
+    },
+    {
+      "name": "BlazewoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_button_recipe"
+    },
+    {
+      "name": "BlazewoodStickRecipe",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_stick_recipe"
+    },
+    {
+      "name": "BlazewartBlock",
+      "type": "block",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewart_block"
+    },
+    {
+      "name": "BurntNetherrack",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_netherrack"
+    },
+    {
+      "name": "BurningNylium",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_nylium"
+    },
+    {
+      "name": "BlazingJungle",
+      "type": "biome",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_jungle"
+    },
+    {
+      "name": "MagmiteIngot",
+      "type": "item",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_ingot"
+    },
+    {
+      "name": "MagmiteOre",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_ore"
+    },
+    {
+      "name": "MagmiteBlock",
+      "type": "block",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_block"
+    },
+    {
+      "name": "MagmiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_ore_block_recipe"
+    },
+    {
+      "name": "MagmiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_block_ore_recipe"
+    },
+    {
+      "name": "MagmiteOreSmelting",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_ore_smelting"
+    },
+    {
+      "name": "RawMagmite",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magmite"
+    },
+    {
+      "name": "RawMagmiteSmelting",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magmite_smelting"
+    },
+    {
+      "name": "MagmiteDust",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_dust"
+    },
+    {
+      "name": "MagmiteDustSmelting",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_dust_smelting"
+    },
+    {
+      "name": "RawMagmiteBlock",
+      "type": "block",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magmite_block"
+    },
+    {
+      "name": "RawMagmiteBlockSmelting",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magmite_block_smelting"
+    },
+    {
+      "name": "RawMagmiteToBlock",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magmite_to_block"
+    },
+    {
+      "name": "RawMagmiteFromBlock",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_magmite_from_block"
+    },
+    {
+      "name": "MagmiteNugget",
+      "type": "item",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_nugget"
+    },
+    {
+      "name": "MagmiteNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_nuggets_to_ingot"
+    },
+    {
+      "name": "MagmiteIngotToNuggets",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_ingot_to_nuggets"
+    },
+    {
+      "name": "MagmitePickaxe",
+      "type": "tool",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_pickaxe"
+    },
+    {
+      "name": "MagmiteAxe",
+      "type": "tool",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_axe"
+    },
+    {
+      "name": "MagmiteSword",
+      "type": "tool",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_sword"
+    },
+    {
+      "name": "MagmiteShovel",
+      "type": "tool",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_shovel"
+    },
+    {
+      "name": "MagmiteHoe",
+      "type": "tool",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_hoe"
+    },
+    {
+      "name": "MagmitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_pickaxe_recipe"
+    },
+    {
+      "name": "MagmiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_axe_recipe"
+    },
+    {
+      "name": "MagmiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_sword_recipe"
+    },
+    {
+      "name": "MagmiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_shovel_recipe"
+    },
+    {
+      "name": "MagmiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_hoe_recipe"
+    },
+    {
+      "name": "MagmiteArmor",
+      "type": "armor",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MagmiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_armor_helmet_recipe"
+    },
+    {
+      "name": "MagmiteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_armor_body_recipe"
+    },
+    {
+      "name": "MagmiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_armor_leggings_recipe"
+    },
+    {
+      "name": "MagmiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_armor_boots_recipe"
+    },
+    {
+      "name": "Garnet",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet"
+    },
+    {
+      "name": "GarnetOre",
+      "type": "block",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore"
+    },
+    {
+      "name": "GarnetBlock",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_block"
+    },
+    {
+      "name": "GarnetOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore_block_recipe"
+    },
+    {
+      "name": "GarnetBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_block_ore_recipe"
+    },
+    {
+      "name": "GarnetOreSmelting",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore_smelting"
+    },
+    {
+      "name": "GarnetGemPickaxe",
+      "type": "tool",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_pickaxe"
+    },
+    {
+      "name": "GarnetGemAxe",
+      "type": "tool",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_axe"
+    },
+    {
+      "name": "GarnetGemSword",
+      "type": "tool",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_sword"
+    },
+    {
+      "name": "GarnetGemShovel",
+      "type": "tool",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_shovel"
+    },
+    {
+      "name": "GarnetGemHoe",
+      "type": "tool",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_hoe"
+    },
+    {
+      "name": "GarnetGemPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_pickaxe_recipe"
+    },
+    {
+      "name": "GarnetGemAxeRecipe",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_axe_recipe"
+    },
+    {
+      "name": "GarnetGemSwordRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_sword_recipe"
+    },
+    {
+      "name": "GarnetGemShovelRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_shovel_recipe"
+    },
+    {
+      "name": "GarnetGemHoeRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_hoe_recipe"
+    },
+    {
+      "name": "NetherrackRod",
+      "type": "item",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_rod"
+    },
+    {
+      "name": "NetherrackRodRecipe",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_rod_recipe"
+    },
+    {
+      "name": "GarnetGemArmor",
+      "type": "armor",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GarnetGemArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_armor_helmet_recipe"
+    },
+    {
+      "name": "GarnetGemArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_armor_body_recipe"
+    },
+    {
+      "name": "GarnetGemArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_armor_leggings_recipe"
+    },
+    {
+      "name": "GarnetGemArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_gem_armor_boots_recipe"
+    },
+    {
+      "name": "OverenchantingBasic",
+      "type": "procedure",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overenchanting_basic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BasicAltarGUI",
+      "type": "gui",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_altar_gui"
+    },
+    {
+      "name": "NetherheartForgeRecipe",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_forge_recipe"
+    },
+    {
+      "name": "ElectrumAltar",
+      "type": "block",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_altar"
+    },
+    {
+      "name": "ElectrumAltarRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_altar_recipe"
+    },
+    {
+      "name": "MagmiteApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmiteApple",
+      "type": "item",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_apple"
+    },
+    {
+      "name": "DiamondApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondApple",
+      "type": "item",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple"
+    },
+    {
+      "name": "NetheriteApple",
+      "type": "item",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple"
+    },
+    {
+      "name": "NetheriteApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_apple_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltApple",
+      "type": "item",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_apple"
+    },
+    {
+      "name": "MagmiteAppleRecipe",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_apple_recipe"
+    },
+    {
+      "name": "DiamondAppleRecipe",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple_recipe"
+    },
+    {
+      "name": "NetheriteAppleRecipe",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_apple_recipe"
+    },
+    {
+      "name": "IronHeartItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_heart_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronHeart",
+      "type": "item",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_heart"
+    },
+    {
+      "name": "IronHeartRecipe",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_heart_recipe"
+    },
+    {
+      "name": "DiamondHeartItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_heart_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondHeart",
+      "type": "item",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_heart"
+    },
+    {
+      "name": "DiamondHeartRecipe",
+      "type": "recipe",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_heart_recipe"
+    },
+    {
+      "name": "NetheriteHeartItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_heart_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteHeart",
+      "type": "item",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_heart"
+    },
+    {
+      "name": "NetheriteHeartRecipe",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_heart_recipe"
+    },
+    {
+      "name": "HeartsOfIron",
+      "type": "achievement",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearts_of_iron"
+    },
+    {
+      "name": "EvenMoreHearts",
+      "type": "achievement",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "even_more_hearts"
+    },
+    {
+      "name": "NetherheartNotForge",
+      "type": "achievement",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_not_forge"
+    },
+    {
+      "name": "CobaltHeartItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_heart_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltHeart",
+      "type": "item",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_heart"
+    },
+    {
+      "name": "NetherheartYesForge",
+      "type": "achievement",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherheart_yes_forge"
+    },
+    {
+      "name": "CobaltAnchorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_anchor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobaltAnchor",
+      "type": "block",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_anchor"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.minefinity.brass_block": "Block of Brass",
+      "item.minefinity.silver_armor_helmet": "Silver Helmet",
+      "item.minefinity.cobalt_apple": "Cobalt Apple",
+      "item.minefinity.magmite_armor_boots": "Magmite Boots",
+      "advancements.hearts_of_iron.descr": "Make an Iron Heart to increase your max health to 12 hearts.",
+      "advancements.very_very_not_for_mining.title": "Very Very Not For Mining",
+      "advancements.very_not_for_mining.title": "Very Not For Mining",
+      "block.minefinity.nickel_block": "Block of Nickel",
+      "block.minefinity.silver_block": "Block of Silver",
+      "block.minefinity.electrum_casing": "Electrum Casing",
+      "item.minefinity.raw_nickel": "Raw Nickel",
+      "block.minefinity.deepslate_zinc_ore": "Deepslate Zinc Ore",
+      "item.minefinity.cobalt_armor_chestplate": "Cobalt Chestplate",
+      "item.minefinity.copper_dust": "Copper Dust",
+      "item.minefinity.garnet_gem_armor_boots": "Garnet Boots",
+      "block.minefinity.zinc_block": "Block of Zinc",
+      "advancements.ill_give_you_my_five_cents.title": "I\u0027ll Give You My Five Cents",
+      "block.minefinity.tin_ore": "Tin Ore",
+      "item.minefinity.cobalt_shovel": "Cobalt Shovel",
+      "block.minefinity.blazewood_slab": "Blazewood Slab",
+      "item.minefinity.silver_dust": "Silver Dust",
+      "advancements.sliver_of_silver.descr": "Find Silver in the Nether at any elevation.",
+      "item.minefinity.constantan_ingot": "Constantan Ingot",
+      "block.minefinity.nether_tin_ore": "Nether Tin Ore",
+      "block.minefinity.lignite_iron_ore": "Lignite Iron Ore",
+      "block.minefinity.blazewart_block": "Blazewart Block",
+      "biome.minefinity.marble_caves": "Marble Caves",
+      "item.minefinity.garnet_gem_armor_leggings": "Garnet Leggings",
+      "item.minefinity.netherite_nugget": "Netherite Nugget",
+      "item.minefinity.nickel_nugget": "Nickel Nugget",
+      "block.minefinity.cobalt_block": "Block of Cobalt",
+      "item.minefinity.magmite_apple": "Magmite Apple",
+      "block.minefinity.blazewood_log": "Blazewood Log",
+      "block.minefinity.rose_gold_block": "Block of Rose Gold",
+      "item.minefinity.silver_pickaxe": "Silver Pickaxe",
+      "item.minefinity.silver_nugget": "Silver Nugget",
+      "advancements.netherheart_yes_forge.descr": "Make a Cobalt Heart to increase max health to 18 hearts. Needs a Netherheart Forge.",
+      "block.minefinity.cobalt_ore": "Cobalt Ore",
+      "advancements.forgery.descr": "Craft all the modules for the Netherheart Forge, then assemble the Forge! This completes Chapter 1.",
+      "item.minefinity.gold_dust": "Gold Dust",
+      "block.minefinity.blazewood_wood": "Blazewood Block",
+      "item.minefinity.silver_axe": "Silver Axe",
+      "item.minefinity.rose_gold_ingot": "Rose Gold Ingot",
+      "item.minefinity.bronze_nugget": "Bronze Nugget",
+      "advancements.electricium.title": "Electricium",
+      "advancements.sliver_of_silver.title": "Sliver Of Silver",
+      "item.minefinity.cobalt_hoe": "Cobalt Hoe",
+      "biome.minefinity.lignite_caves": "Lignite Caves",
+      "item.minefinity.silver_armor_leggings": "Silver Leggings",
+      "item.minefinity.soul_coal": "Soul Coal",
+      "advancements.netherheart_not_forge.title": "Netherheart Not Forge",
+      "block.minefinity.blazewood_pressure_plate": "Blazewood Pressure Plate",
+      "item.minefinity.garnet_gem_shovel": "Garnet Shovel",
+      "item.minefinity.netherite_apple": "Netherite Apple",
+      "item.minefinity.magmite_armor_chestplate": "Magmite Chestplate",
+      "item.minefinity.garnet_gem_armor_helmet": "Garnet Helmet",
+      "advancements.first_workstation.title": "First Workstation",
+      "block.minefinity.raw_tin_block": "Raw Tin Block",
+      "item.minefinity.basalt_rod": "Basalt Rod",
+      "item.minefinity.iron_dust": "Iron Dust",
+      "advancements.not_for_mining.descr": "Make an Iron Hammer. Used in crafting.",
+      "item.minefinity.magmite_sword": "Magmite Sword",
+      "block.minefinity.deepslate_nickel_ore": "Deepslate Nickel Ore",
+      "item.minefinity.cobalt_heart": "Cobalt Heart",
+      "advancements.ill_give_you_my_five_cents.descr": "Obtain Nickel below y64 in the new Mushroom Caves. You\u0027ll know where a Mushroom Cave is if you see Mooshrooms without Mycelium!",
+      "item.minefinity.garnet_gem_sword": "Garnet Sword",
+      "item.minefinity.garnet_gem_axe": "Garnet Axe",
+      "item.minefinity.tin_nugget": "Tin Nugget",
+      "item.minefinity.netherheart_forge_smelting_module": "Netherheart Forge Smelting Module",
+      "item.minefinity.brass_nugget": "Brass Nugget",
+      "advancements.forgery.title": "Forgery!",
+      "block.minefinity.lignite": "Lignite",
+      "item.minefinity.raw_zinc": "Raw Zinc",
+      "block.minefinity.stonecelium": "Stonecelium",
+      "advancements.did_i_install_tinkers.descr": "Find Cobalt below y33 in the Nether. Requires a Netherite or better Pickaxe to break. Smelt it to complete.",
+      "item.minefinity.magmite_dust": "Magmite Dust",
+      "advancements.tingot.title": "Tingot",
+      "item.minefinity.cobalt_armor_helmet": "Cobalt Helmet",
+      "advancements.very_very_not_for_mining.descr": "Make a Netherite Hammer. Used in crafting.",
+      "item.minefinity.cobalt_sword": "Cobalt Sword",
+      "block.minefinity.nether_brick_furnace": "Nether Brick Furnace",
+      "item.minefinity.cobalt_dust": "Cobalt Dust",
+      "block.minefinity.magmite_ore": "Magmite Ore",
+      "item.minefinity.diamond_heart": "Diamond Heart",
+      "advancements.machine_frames_part_2.descr": "Make an Electrum Casing with Electrum and Crimson Planks.",
+      "item.minefinity.silver_armor_boots": "Silver Boots",
+      "block.minefinity.garnet_ore": "Garnet Ore",
+      "block.minefinity.raw_silver_block": "Raw Silver Block",
+      "advancements.soul_coal_roll.descr": "Make Soul Coal with Soul Sand and Coal.",
+      "item.minefinity.netherrack_rod": "Netherrack Rod",
+      "block.minefinity.metallic_crushing_hammer": "Metallic Crushing Hammer",
+      "item.minefinity.magmite_hoe": "Magmite Hoe",
+      "item.minefinity.netherite_dust": "Netherite Dust",
+      "item.minefinity.bronze_ingot": "Bronze Ingot",
+      "item.minefinity.iron_heart": "Iron Heart",
+      "advancements.four_ores_score.title": "Four Ores? Score!",
+      "advancements.cover_me_in_cobalt.title": "Cover Me In Cobalt",
+      "item.minefinity.cobalt_rod": "Cobalt Rod",
+      "block.minefinity.raw_zinc_block": "Raw Zinc Block",
+      "advancements.even_more_hearts.descr": "Make a Diamond Heart to increase your max health to 14 hearts.",
+      "advancements.robs_and_coppers.descr": "Obtain vanilla Copper. It is found typically in Dripstone Caves, but can be found anywhere between y0 and y96.",
+      "block.minefinity.electrum_altar": "Electrum Altar",
+      "itemGroup.tabminefinity_basics": "Minefinity Basics",
+      "advancements.ridiculous_dedication.descr": "Make a Cobalt Hoe, and then suffer your poor judgement decisions.",
+      "item.minefinity.garnet_gem_armor_chestplate": "Garnet Chestplate",
+      "item.minefinity.magmite_pickaxe": "Magmite Pickaxe",
+      "advancements.netherheart_not_forge.descr": "Make a Netherite Heart to increase max health to 16 hearts.",
+      "item.minefinity.lignite_chunk": "Lignite Chunk",
+      "block.minefinity.nickel_ore": "Nickel Ore",
+      "item.minefinity.magmite_axe": "Magmite Axe",
+      "item.minefinity.netherite_heart": "Netherite Heart",
+      "advancements.first_workstation.descr": "Make and place a Metallic Crushing Hammer. Put raw metals in, get dust. Smelt dust for double the output!",
+      "item.minefinity.netherheart_forge_alloying_module": "Netherheart Forge Alloying Module",
+      "block.minefinity.magmite_block": "Block of Magmite",
+      "item.minefinity.cobalt_nugget": "Cobalt Nugget",
+      "block.minefinity.bejeweled_crushing_hammer": "Bejeweled Crushing Hammer",
+      "item.minefinity.cobalt_pickaxe": "Cobalt Pickaxe",
+      "advancements.even_more_hearts.title": "Even More Hearts",
+      "advancements.robs_and_coppers.title": "Robs And Coppers",
+      "block.minefinity.blazewood_button": "Blazewood Button",
+      "item.minefinity.cobalt_axe": "Cobalt Axe",
+      "block.minefinity.garnet_block": "Block of Garnet",
+      "block.minefinity.blazewood_fence": "Blazewood Fence",
+      "block.minefinity.marble_diamond_ore": "Marble Diamond Ore",
+      "block.minefinity.blazewood_planks": "Blazewood Planks",
+      "block.minefinity.tin_block": "Block of Tin",
+      "advancements.not_for_mining.title": "Not For Mining",
+      "advancements.machine_frames_part_1.descr": "Make Wood Casings with Zinc and any Planks.",
+      "advancements.cover_me_in_cobalt.descr": "Wear a full set of Cobalt Armor.",
+      "block.minefinity.marble": "Marble",
+      "advancements.chapter_1.descr": "Many roads lie ahead... many obstacles stand in your way.",
+      "biome.minefinity.mushroom_caves": "Mushroom Caves",
+      "item.minefinity.tin_ingot": "Tin Ingot",
+      "item.minefinity.rose_gold_nugget": "Rose Gold Nugget",
+      "block.minefinity.silver_ore": "Silver Ore",
+      "block.minefinity.blazewood_stairs": "Blazewood Stairs",
+      "item.minefinity.magmite_shovel": "Magmite Shovel",
+      "item.minefinity.raw_tin": "Raw Tin",
+      "item.minefinity.silver_ingot": "Silver Ingot",
+      "block.minefinity.bronze_block": "Block of Bronze",
+      "item.minefinity.constantan_nugget": "Constantan Nugget",
+      "item.minefinity.silver_armor_chestplate": "Silver Chestplate",
+      "item.minefinity.magmite_armor_leggings": "Magmite Leggings",
+      "block.minefinity.raw_cobalt_block": "Raw Cobalt Block",
+      "item.minefinity.nickel_ingot": "Nickel Ingot",
+      "biome.minefinity.blazing_jungle": "Blazing Jungle",
+      "advancements.shiny_new_crusher.descr": "Upgrade your Metallic Crushing Hammer into a Bejeweled Crushing Hammer! This TRIPLES ore output and works on Ancient Debris!",
+      "item.minefinity.garnet_gem_pickaxe": "Garnet Pickaxe",
+      "item.minefinity.cobalt_armor_boots": "Cobalt Boots",
+      "item.minefinity.magmite_armor_helmet": "Magmite Helmet",
+      "advancements.not_kitchen_zinc.title": "Not \"Kitchen Zinc\"",
+      "block.minefinity.cobalt_anchor": "Cobalt Anchor",
+      "item.minefinity.electrum_ingot": "Electrum Ingot",
+      "block.minefinity.burning_nylium": "Burning Nylium",
+      "item.minefinity.cobalt_ingot": "Cobalt Ingot",
+      "item.minefinity.garnet": "Garnet",
+      "advancements.shiny_new_crusher.title": "Shiny New Crusher",
+      "block.minefinity.raw_magmite_block": "Raw Magmite Block",
+      "item.minefinity.zinc_nugget": "Zinc Nugget",
+      "block.minefinity.wood_casing": "Wood Casing",
+      "advancements.hearts_of_iron.title": "Hearts Of Iron",
+      "advancements.very_not_for_mining.descr": "Make a Diamond Hammer. Used in crafting.",
+      "item.minefinity.tin_dust": "Tin Dust",
+      "item.minefinity.netherite_hammer": "Netherite Hammer",
+      "block.minefinity.infernal_crushing_hammer": "Infernal Crushing Hammer",
+      "item.minefinity.silver_sword": "Silver Sword",
+      "advancements.soul_coal_roll.title": "Soul Coal Roll",
+      "advancements.electricium.descr": "Make Electrum in the Nether Brick Furnace with Gold and Silver.",
+      "item.minefinity.brass_ingot": "Brass Ingot",
+      "item.minefinity.electrum_nugget": "Electrum Nugget",
+      "item.minefinity.magmite_nugget": "Magmite Nugget",
+      "item.minefinity.silver_hoe": "Silver Hoe",
+      "advancements.not_kitchen_zinc.descr": "While true, Zinc can be found between y96 and y192, or below y-32. Find caves or cliffs and start looking!",
+      "block.minefinity.constantan_block": "Block of Constantan",
+      "item.minefinity.cobalt_armor_leggings": "Cobalt Leggings",
+      "item.minefinity.raw_silver": "Raw Silver",
+      "item.minefinity.nickel_dust": "Nickel Dust",
+      "item.minefinity.silver_shovel": "Silver Shovel",
+      "block.minefinity.netherheart_forge": "Netherheart Forge",
+      "item.minefinity.iron_hammer": "Iron Hammer",
+      "advancements.four_ores_score.descr": "Make the Infernal Crushing Hammer, which can be used on Cobalt. Requires an Electrum Casing!",
+      "advancements.ridiculous_dedication.title": "Ridiculous Dedication",
+      "item.minefinity.magmite_ingot": "Magmite Ingot",
+      "advancements.tingot.descr": "Obtain Tin below y64 in Lush Caves.",
+      "block.minefinity.deepslate_tin_ore": "Deepslate Tin Ore",
+      "block.minefinity.blazewood_fence_gate": "Blazewood Fence Gate",
+      "advancements.netherheart_yes_forge.title": "Netherheart Yes Forge",
+      "advancements.machine_frames_part_2.title": "Machine Frames Part 2",
+      "item.minefinity.diamond_hammer": "Diamond Hammer",
+      "item.minefinity.diamond_apple": "Diamond Apple",
+      "item.minefinity.raw_cobalt": "Raw Cobalt",
+      "item.minefinity.garnet_gem_hoe": "Garnet Hoe",
+      "item.minefinity.copper_nugget": "Copper Nugget",
+      "advancements.chapter_1.title": "Chapter 1: A Long Journey",
+      "item.minefinity.zinc_ingot": "Zinc Ingot",
+      "item.minefinity.zinc_dust": "Zinc Dust",
+      "advancements.machine_frames_part_1.title": "Machine Frames Part 1",
+      "block.minefinity.raw_nickel_block": "Raw Nickel Block",
+      "block.minefinity.burnt_netherrack": "Burnt Netherrack",
+      "advancements.did_i_install_tinkers.title": "Did I Install Tinkers\u0027?",
+      "block.minefinity.zinc_ore": "Zinc Ore",
+      "block.minefinity.electrum_block": "Block of Electrum",
+      "itemGroup.tabminefinity_nether": "Minefinity Nether",
+      "item.minefinity.netherheart_forge_crafting_module": "Netherheart Forge Crafting Module",
+      "item.minefinity.raw_magmite": "Raw Magmite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minefinity",
+    "modName": "Minefinity",
+    "version": "008",
+    "description": "The mod to end all mods.",
+    "author": "Andrewthepika",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items-1.18.2",
+      "patchouli-1.18.2"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.minefinity",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

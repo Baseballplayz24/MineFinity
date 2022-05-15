@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:constantan_ingot"
+    }
+  ],
+  "result": {
+    "item": "minefinity:constantan_nugget",
+    "count": 9
+  }
+}

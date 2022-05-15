@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/diamond_ore",
+    "up": "minefinity:blocks/diamond_ore",
+    "north": "minefinity:blocks/diamond_ore",
+    "east": "minefinity:blocks/diamond_ore",
+    "south": "minefinity:blocks/diamond_ore",
+    "west": "minefinity:blocks/diamond_ore",
+    "particle": "minefinity:blocks/diamond_ore"
+  }
+}

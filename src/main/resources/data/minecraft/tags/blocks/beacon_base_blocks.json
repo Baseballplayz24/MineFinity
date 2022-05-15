@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minefinity:tin_block",
+    "minecraft:redstone_block",
+    "minefinity:magmite_block",
+    "minefinity:cobalt_block",
+    "minecraft:coal_block",
+    "minefinity:zinc_block",
+    "minefinity:nickel_block",
+    "minecraft:copper_block",
+    "minefinity:silver_block",
+    "minecraft:lapis_block",
+    "minefinity:garnet_block",
+    "minefinity:rose_gold_block",
+    "minefinity:brass_block",
+    "minecraft:waxed_copper_block",
+    "minefinity:electrum_block",
+    "minefinity:bronze_block",
+    "minefinity:constantan_block"
+  ]
+}

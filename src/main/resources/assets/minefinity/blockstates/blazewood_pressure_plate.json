@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "minefinity:block/blazewood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minefinity:block/blazewood_pressure_plate_down"
+    }
+  }
+}

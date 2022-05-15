@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:metallic_crushing_hammer"
+    },
+    "title": {
+      "translate": "advancements.first_workstation.title"
+    },
+    "description": {
+      "translate": "advancements.first_workstation.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_workstation": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:metallic_crushing_hammer"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "minefinity:not_for_mining"
+}
