@@ -31,7 +31,16 @@ public class NetherheartForgeInstaSmeltingProcedure {
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 20) < 64 && (new Object() {
+		}.getAmount(world, new BlockPos(x, y, z), 18) == 64 && new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos(x, y, z), 20) == 0 && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -49,7 +58,7 @@ public class NetherheartForgeInstaSmeltingProcedure {
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos(x, y, z), 20) <= 63 && (new Object() {
+		}.getAmount(world, new BlockPos(x, y, z), 20) == 0 && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -94,7 +103,7 @@ public class NetherheartForgeInstaSmeltingProcedure {
 				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
 					final int _slotid = 18;
-					final int _amount = 1;
+					final int _amount = 64;
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							ItemStack _stk = capability.getStackInSlot(_slotid).copy();
@@ -153,7 +162,7 @@ public class NetherheartForgeInstaSmeltingProcedure {
 										.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 							return _retval.get();
 						}
-					}.getAmount(world, new BlockPos(x, y, z), 20) + 1));
+					}.getAmount(world, new BlockPos(x, y, z), 20) + 64));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable)
 							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
