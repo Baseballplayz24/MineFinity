@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:cobalt_dust"
+    }
+  },
+  "result": {
+    "item": "minefinity:cobalt_dust_block",
+    "count": 1
+  }
+}

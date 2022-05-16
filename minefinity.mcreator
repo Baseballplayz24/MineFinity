@@ -3527,6 +3527,102 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_dust_block_smelting"
+    },
+    {
+      "name": "SilverDustBlock",
+      "type": "block",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_block"
+    },
+    {
+      "name": "SilverDustToBlock",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_to_block"
+    },
+    {
+      "name": "SilverDustFromBlock",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_from_block"
+    },
+    {
+      "name": "SilverDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_block_smelting"
+    },
+    {
+      "name": "CobaltDustBlock",
+      "type": "block",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_dust_block"
+    },
+    {
+      "name": "CobaltDustToBlock",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_dust_to_block"
+    },
+    {
+      "name": "CobaltDustFromBlock",
+      "type": "recipe",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_dust_from_block"
+    },
+    {
+      "name": "CobaltDustBlockRecipe",
+      "type": "recipe",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_dust_block_recipe"
+    },
+    {
+      "name": "MagmiteDustBlock",
+      "type": "block",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_dust_block"
+    },
+    {
+      "name": "MagmiteDustToBlock",
+      "type": "recipe",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_dust_to_block"
+    },
+    {
+      "name": "MagmiteDustFromBlock",
+      "type": "recipe",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_dust_from_block"
+    },
+    {
+      "name": "MagmiteDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmite_dust_block_smelting"
     }
   ],
   "variable_elements": [],
@@ -3564,6 +3660,7 @@
       "item.minefinity.garnet_gem_armor_leggings": "Garnet Leggings",
       "item.minefinity.netherite_nugget": "Netherite Nugget",
       "item.minefinity.nickel_nugget": "Nickel Nugget",
+      "block.minefinity.magmite_dust_block": "Magmite Dust Block",
       "block.minefinity.cobalt_block": "Block of Cobalt",
       "item.minefinity.magmite_apple": "Magmite Apple",
       "block.minefinity.blazewood_log": "Blazewood Log",
@@ -3636,6 +3733,7 @@
       "item.minefinity.cobalt_rod": "Cobalt Rod",
       "block.minefinity.raw_zinc_block": "Raw Zinc Block",
       "advancements.even_more_hearts.descr": "Make a Diamond Heart to increase your max health to 14 hearts.",
+      "block.minefinity.cobalt_dust_block": "Cobalt Dust Block",
       "block.minefinity.nickel_dust_block": "Nickel Dust Block",
       "advancements.robs_and_coppers.descr": "Obtain vanilla Copper. It is found typically in Dripstone Caves, but can be found anywhere between y0 and y96.",
       "block.minefinity.electrum_altar": "Electrum Altar",
@@ -3695,6 +3793,7 @@
       "block.minefinity.burning_nylium": "Burning Nylium",
       "item.minefinity.cobalt_ingot": "Cobalt Ingot",
       "item.minefinity.garnet": "Garnet",
+      "block.minefinity.silver_dust_block": "Silver Dust Block",
       "advancements.shiny_new_crusher.title": "Shiny New Crusher",
       "block.minefinity.raw_magmite_block": "Raw Magmite Block",
       "item.minefinity.zinc_nugget": "Zinc Nugget",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:silver_dust"
+    }
+  },
+  "result": {
+    "item": "minefinity:silver_dust_block",
+    "count": 1
+  }
+}

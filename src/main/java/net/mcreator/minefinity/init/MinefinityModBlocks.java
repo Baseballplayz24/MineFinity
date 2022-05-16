@@ -23,6 +23,7 @@ import net.mcreator.minefinity.block.TinDustBlockBlock;
 import net.mcreator.minefinity.block.TinBlockBlock;
 import net.mcreator.minefinity.block.StoneceliumBlock;
 import net.mcreator.minefinity.block.SilverOreBlock;
+import net.mcreator.minefinity.block.SilverDustBlockBlock;
 import net.mcreator.minefinity.block.SilverBlockBlock;
 import net.mcreator.minefinity.block.RoseGoldBlockBlock;
 import net.mcreator.minefinity.block.RawZincBlockBlock;
@@ -41,6 +42,7 @@ import net.mcreator.minefinity.block.MetallicCrushingHammerBlock;
 import net.mcreator.minefinity.block.MarbleDiamondOreBlock;
 import net.mcreator.minefinity.block.MarbleBlock;
 import net.mcreator.minefinity.block.MagmiteOreBlock;
+import net.mcreator.minefinity.block.MagmiteDustBlockBlock;
 import net.mcreator.minefinity.block.MagmiteBlockBlock;
 import net.mcreator.minefinity.block.LigniteIronOreBlock;
 import net.mcreator.minefinity.block.LigniteBlock;
@@ -58,6 +60,7 @@ import net.mcreator.minefinity.block.DeepslateNickelOreBlock;
 import net.mcreator.minefinity.block.CopperDustBlockBlock;
 import net.mcreator.minefinity.block.ConstantanBlockBlock;
 import net.mcreator.minefinity.block.CobaltOreBlock;
+import net.mcreator.minefinity.block.CobaltDustBlockBlock;
 import net.mcreator.minefinity.block.CobaltBlockBlock;
 import net.mcreator.minefinity.block.CobaltAnchorBlock;
 import net.mcreator.minefinity.block.BurntNetherrackBlock;
@@ -144,6 +147,9 @@ public class MinefinityModBlocks {
 	public static final RegistryObject<Block> TIN_DUST_BLOCK = REGISTRY.register("tin_dust_block", () -> new TinDustBlockBlock());
 	public static final RegistryObject<Block> NICKEL_DUST_BLOCK = REGISTRY.register("nickel_dust_block", () -> new NickelDustBlockBlock());
 	public static final RegistryObject<Block> ZINC_DUST_BLOCK = REGISTRY.register("zinc_dust_block", () -> new ZincDustBlockBlock());
+	public static final RegistryObject<Block> SILVER_DUST_BLOCK = REGISTRY.register("silver_dust_block", () -> new SilverDustBlockBlock());
+	public static final RegistryObject<Block> COBALT_DUST_BLOCK = REGISTRY.register("cobalt_dust_block", () -> new CobaltDustBlockBlock());
+	public static final RegistryObject<Block> MAGMITE_DUST_BLOCK = REGISTRY.register("magmite_dust_block", () -> new MagmiteDustBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

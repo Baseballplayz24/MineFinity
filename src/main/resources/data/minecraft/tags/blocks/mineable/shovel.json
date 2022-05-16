@@ -6,6 +6,9 @@
     "minefinity:copper_dust_block",
     "minefinity:tin_dust_block",
     "minefinity:nickel_dust_block",
-    "minefinity:zinc_dust_block"
+    "minefinity:zinc_dust_block",
+    "minefinity:silver_dust_block",
+    "minefinity:cobalt_dust_block",
+    "minefinity:magmite_dust_block"
   ]
 }

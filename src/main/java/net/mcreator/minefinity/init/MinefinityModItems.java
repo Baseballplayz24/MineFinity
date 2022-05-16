@@ -283,6 +283,12 @@ public class MinefinityModItems {
 	public static final RegistryObject<Item> NICKEL_DUST_BLOCK = block(MinefinityModBlocks.NICKEL_DUST_BLOCK,
 			MinefinityModTabs.TAB_MINEFINITY_BASICS);
 	public static final RegistryObject<Item> ZINC_DUST_BLOCK = block(MinefinityModBlocks.ZINC_DUST_BLOCK, MinefinityModTabs.TAB_MINEFINITY_BASICS);
+	public static final RegistryObject<Item> SILVER_DUST_BLOCK = block(MinefinityModBlocks.SILVER_DUST_BLOCK,
+			MinefinityModTabs.TAB_MINEFINITY_NETHER);
+	public static final RegistryObject<Item> COBALT_DUST_BLOCK = block(MinefinityModBlocks.COBALT_DUST_BLOCK,
+			MinefinityModTabs.TAB_MINEFINITY_NETHER);
+	public static final RegistryObject<Item> MAGMITE_DUST_BLOCK = block(MinefinityModBlocks.MAGMITE_DUST_BLOCK,
+			MinefinityModTabs.TAB_MINEFINITY_NETHER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
