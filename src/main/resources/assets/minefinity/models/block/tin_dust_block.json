@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/tindustblock",
+    "up": "minefinity:blocks/tindustblock",
+    "north": "minefinity:blocks/tindustblock",
+    "east": "minefinity:blocks/tindustblock",
+    "south": "minefinity:blocks/tindustblock",
+    "west": "minefinity:blocks/tindustblock",
+    "particle": "minefinity:blocks/tindustblock"
+  }
+}

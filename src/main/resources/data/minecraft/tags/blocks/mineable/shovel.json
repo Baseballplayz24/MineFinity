@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minefinity:iron_dust_block",
+    "minefinity:gold_dust_block",
+    "minefinity:copper_dust_block",
+    "minefinity:tin_dust_block",
+    "minefinity:nickel_dust_block",
+    "minefinity:zinc_dust_block"
+  ]
+}

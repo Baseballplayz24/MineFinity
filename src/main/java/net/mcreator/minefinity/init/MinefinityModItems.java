@@ -275,6 +275,14 @@ public class MinefinityModItems {
 	public static final RegistryObject<Item> NETHERITE_HEART = REGISTRY.register("netherite_heart", () -> new NetheriteHeartItem());
 	public static final RegistryObject<Item> COBALT_HEART = REGISTRY.register("cobalt_heart", () -> new CobaltHeartItem());
 	public static final RegistryObject<Item> COBALT_ANCHOR = block(MinefinityModBlocks.COBALT_ANCHOR, MinefinityModTabs.TAB_MINEFINITY_NETHER);
+	public static final RegistryObject<Item> IRON_DUST_BLOCK = block(MinefinityModBlocks.IRON_DUST_BLOCK, MinefinityModTabs.TAB_MINEFINITY_BASICS);
+	public static final RegistryObject<Item> GOLD_DUST_BLOCK = block(MinefinityModBlocks.GOLD_DUST_BLOCK, MinefinityModTabs.TAB_MINEFINITY_BASICS);
+	public static final RegistryObject<Item> COPPER_DUST_BLOCK = block(MinefinityModBlocks.COPPER_DUST_BLOCK,
+			MinefinityModTabs.TAB_MINEFINITY_BASICS);
+	public static final RegistryObject<Item> TIN_DUST_BLOCK = block(MinefinityModBlocks.TIN_DUST_BLOCK, MinefinityModTabs.TAB_MINEFINITY_BASICS);
+	public static final RegistryObject<Item> NICKEL_DUST_BLOCK = block(MinefinityModBlocks.NICKEL_DUST_BLOCK,
+			MinefinityModTabs.TAB_MINEFINITY_BASICS);
+	public static final RegistryObject<Item> ZINC_DUST_BLOCK = block(MinefinityModBlocks.ZINC_DUST_BLOCK, MinefinityModTabs.TAB_MINEFINITY_BASICS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

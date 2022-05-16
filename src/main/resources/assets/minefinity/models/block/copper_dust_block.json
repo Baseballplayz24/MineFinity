@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/copperdustblock",
+    "up": "minefinity:blocks/copperdustblock",
+    "north": "minefinity:blocks/copperdustblock",
+    "east": "minefinity:blocks/copperdustblock",
+    "south": "minefinity:blocks/copperdustblock",
+    "west": "minefinity:blocks/copperdustblock",
+    "particle": "minefinity:blocks/copperdustblock"
+  }
+}

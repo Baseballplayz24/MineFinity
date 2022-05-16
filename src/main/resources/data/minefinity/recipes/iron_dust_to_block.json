@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:iron_dust"
+    }
+  },
+  "result": {
+    "item": "minefinity:iron_dust_block",
+    "count": 1
+  }
+}

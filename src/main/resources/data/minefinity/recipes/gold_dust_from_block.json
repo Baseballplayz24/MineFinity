@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:gold_dust_block"
+    }
+  ],
+  "result": {
+    "item": "minefinity:gold_dust",
+    "count": 9
+  }
+}

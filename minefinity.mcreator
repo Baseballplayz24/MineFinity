@@ -3327,6 +3327,206 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_anchor"
+    },
+    {
+      "name": "BlazewoodRecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazewood_recipe"
+    },
+    {
+      "name": "IronDustBlock",
+      "type": "block",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust_block"
+    },
+    {
+      "name": "IronDustToBlock",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust_to_block"
+    },
+    {
+      "name": "IronDustFromBlock",
+      "type": "recipe",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust_from_block"
+    },
+    {
+      "name": "IronDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust_block_smelting"
+    },
+    {
+      "name": "GoldDustBlock",
+      "type": "block",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_block"
+    },
+    {
+      "name": "GoldDustToBlock",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_to_block"
+    },
+    {
+      "name": "GoldDustFromBlock",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_from_block"
+    },
+    {
+      "name": "GoldDustBlockRecipe",
+      "type": "recipe",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust_block_recipe"
+    },
+    {
+      "name": "CopperDustBlock",
+      "type": "block",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust_block"
+    },
+    {
+      "name": "CopperDustToBlock",
+      "type": "recipe",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust_to_block"
+    },
+    {
+      "name": "CopperDustFromBlock",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust_from_block"
+    },
+    {
+      "name": "CopperDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust_block_smelting"
+    },
+    {
+      "name": "TinDustBlock",
+      "type": "block",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust_block"
+    },
+    {
+      "name": "TinDustToBlock",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust_to_block"
+    },
+    {
+      "name": "TinDustFromBlock",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust_from_block"
+    },
+    {
+      "name": "TinDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_dust_block_smelting"
+    },
+    {
+      "name": "NickelDustBlock",
+      "type": "block",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_dust_block"
+    },
+    {
+      "name": "NickelDustToBlock",
+      "type": "recipe",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_dust_to_block"
+    },
+    {
+      "name": "NickelDustFromBlock",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_dust_from_block"
+    },
+    {
+      "name": "NickelDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_dust_block_smelting"
+    },
+    {
+      "name": "ZincDustBlock",
+      "type": "block",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_dust_block"
+    },
+    {
+      "name": "ZincDustToBlock",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_dust_to_block"
+    },
+    {
+      "name": "ZincDustFromBlock",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_dust_from_block"
+    },
+    {
+      "name": "ZincDustBlockSmelting",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_dust_block_smelting"
     }
   ],
   "variable_elements": [],
@@ -3355,6 +3555,7 @@
       "block.minefinity.blazewood_slab": "Blazewood Slab",
       "item.minefinity.silver_dust": "Silver Dust",
       "advancements.sliver_of_silver.descr": "Find Silver in the Nether at any elevation.",
+      "block.minefinity.zinc_dust_block": "Zinc Dust Block",
       "item.minefinity.constantan_ingot": "Constantan Ingot",
       "block.minefinity.nether_tin_ore": "Nether Tin Ore",
       "block.minefinity.lignite_iron_ore": "Lignite Iron Ore",
@@ -3376,6 +3577,7 @@
       "block.minefinity.blazewood_wood": "Blazewood Block",
       "item.minefinity.silver_axe": "Silver Axe",
       "item.minefinity.rose_gold_ingot": "Rose Gold Ingot",
+      "block.minefinity.iron_dust_block": "Iron Dust Block",
       "item.minefinity.bronze_nugget": "Bronze Nugget",
       "advancements.electricium.title": "Electricium",
       "advancements.sliver_of_silver.title": "Sliver Of Silver",
@@ -3419,6 +3621,7 @@
       "item.minefinity.diamond_heart": "Diamond Heart",
       "advancements.machine_frames_part_2.descr": "Make an Electrum Casing with Electrum and Crimson Planks.",
       "item.minefinity.silver_armor_boots": "Silver Boots",
+      "block.minefinity.gold_dust_block": "Gold Dust Block",
       "block.minefinity.garnet_ore": "Garnet Ore",
       "block.minefinity.raw_silver_block": "Raw Silver Block",
       "advancements.soul_coal_roll.descr": "Make Soul Coal with Soul Sand and Coal.",
@@ -3433,8 +3636,10 @@
       "item.minefinity.cobalt_rod": "Cobalt Rod",
       "block.minefinity.raw_zinc_block": "Raw Zinc Block",
       "advancements.even_more_hearts.descr": "Make a Diamond Heart to increase your max health to 14 hearts.",
+      "block.minefinity.nickel_dust_block": "Nickel Dust Block",
       "advancements.robs_and_coppers.descr": "Obtain vanilla Copper. It is found typically in Dripstone Caves, but can be found anywhere between y0 and y96.",
       "block.minefinity.electrum_altar": "Electrum Altar",
+      "block.minefinity.tin_dust_block": "Tin Dust Block",
       "itemGroup.tabminefinity_basics": "Minefinity Basics",
       "advancements.ridiculous_dedication.descr": "Make a Cobalt Hoe, and then suffer your poor judgement decisions.",
       "item.minefinity.garnet_gem_armor_chestplate": "Garnet Chestplate",
@@ -3447,6 +3652,7 @@
       "advancements.first_workstation.descr": "Make and place a Metallic Crushing Hammer. Put raw metals in, get dust. Smelt dust for double the output!",
       "item.minefinity.netherheart_forge_alloying_module": "Netherheart Forge Alloying Module",
       "block.minefinity.magmite_block": "Block of Magmite",
+      "block.minefinity.copper_dust_block": "Copper Dust Block",
       "item.minefinity.cobalt_nugget": "Cobalt Nugget",
       "block.minefinity.bejeweled_crushing_hammer": "Bejeweled Crushing Hammer",
       "item.minefinity.cobalt_pickaxe": "Cobalt Pickaxe",

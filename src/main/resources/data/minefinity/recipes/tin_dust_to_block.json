@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:tin_dust"
+    }
+  },
+  "result": {
+    "item": "minefinity:tin_dust_block",
+    "count": 1
+  }
+}

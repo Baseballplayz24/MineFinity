@@ -15,9 +15,11 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.minefinity.block.ZincOreBlock;
+import net.mcreator.minefinity.block.ZincDustBlockBlock;
 import net.mcreator.minefinity.block.ZincBlockBlock;
 import net.mcreator.minefinity.block.WoodCasingBlock;
 import net.mcreator.minefinity.block.TinOreBlock;
+import net.mcreator.minefinity.block.TinDustBlockBlock;
 import net.mcreator.minefinity.block.TinBlockBlock;
 import net.mcreator.minefinity.block.StoneceliumBlock;
 import net.mcreator.minefinity.block.SilverOreBlock;
@@ -30,6 +32,7 @@ import net.mcreator.minefinity.block.RawNickelBlockBlock;
 import net.mcreator.minefinity.block.RawMagmiteBlockBlock;
 import net.mcreator.minefinity.block.RawCobaltBlockBlock;
 import net.mcreator.minefinity.block.NickelOreBlock;
+import net.mcreator.minefinity.block.NickelDustBlockBlock;
 import net.mcreator.minefinity.block.NickelBlockBlock;
 import net.mcreator.minefinity.block.NetherheartForgeBlock;
 import net.mcreator.minefinity.block.NetherTinOreBlock;
@@ -41,7 +44,9 @@ import net.mcreator.minefinity.block.MagmiteOreBlock;
 import net.mcreator.minefinity.block.MagmiteBlockBlock;
 import net.mcreator.minefinity.block.LigniteIronOreBlock;
 import net.mcreator.minefinity.block.LigniteBlock;
+import net.mcreator.minefinity.block.IronDustBlockBlock;
 import net.mcreator.minefinity.block.InfernalCrushingHammerBlock;
+import net.mcreator.minefinity.block.GoldDustBlockBlock;
 import net.mcreator.minefinity.block.GarnetOreBlock;
 import net.mcreator.minefinity.block.GarnetBlockBlock;
 import net.mcreator.minefinity.block.ElectrumCasingBlock;
@@ -50,6 +55,7 @@ import net.mcreator.minefinity.block.ElectrumAltarBlock;
 import net.mcreator.minefinity.block.DeepslateZincOreBlock;
 import net.mcreator.minefinity.block.DeepslateTinOreBlock;
 import net.mcreator.minefinity.block.DeepslateNickelOreBlock;
+import net.mcreator.minefinity.block.CopperDustBlockBlock;
 import net.mcreator.minefinity.block.ConstantanBlockBlock;
 import net.mcreator.minefinity.block.CobaltOreBlock;
 import net.mcreator.minefinity.block.CobaltBlockBlock;
@@ -132,6 +138,12 @@ public class MinefinityModBlocks {
 	public static final RegistryObject<Block> GARNET_BLOCK = REGISTRY.register("garnet_block", () -> new GarnetBlockBlock());
 	public static final RegistryObject<Block> ELECTRUM_ALTAR = REGISTRY.register("electrum_altar", () -> new ElectrumAltarBlock());
 	public static final RegistryObject<Block> COBALT_ANCHOR = REGISTRY.register("cobalt_anchor", () -> new CobaltAnchorBlock());
+	public static final RegistryObject<Block> IRON_DUST_BLOCK = REGISTRY.register("iron_dust_block", () -> new IronDustBlockBlock());
+	public static final RegistryObject<Block> GOLD_DUST_BLOCK = REGISTRY.register("gold_dust_block", () -> new GoldDustBlockBlock());
+	public static final RegistryObject<Block> COPPER_DUST_BLOCK = REGISTRY.register("copper_dust_block", () -> new CopperDustBlockBlock());
+	public static final RegistryObject<Block> TIN_DUST_BLOCK = REGISTRY.register("tin_dust_block", () -> new TinDustBlockBlock());
+	public static final RegistryObject<Block> NICKEL_DUST_BLOCK = REGISTRY.register("nickel_dust_block", () -> new NickelDustBlockBlock());
+	public static final RegistryObject<Block> ZINC_DUST_BLOCK = REGISTRY.register("zinc_dust_block", () -> new ZincDustBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

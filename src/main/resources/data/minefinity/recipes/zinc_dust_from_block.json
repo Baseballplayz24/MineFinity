@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:zinc_dust_block"
+    }
+  ],
+  "result": {
+    "item": "minefinity:zinc_dust",
+    "count": 9
+  }
+}
