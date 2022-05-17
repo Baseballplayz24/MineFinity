@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChoruswoodStairs"
+    },
+    "name": "choruswood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

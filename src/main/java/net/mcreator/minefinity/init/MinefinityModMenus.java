@@ -14,9 +14,11 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.minefinity.world.inventory.NetherheartForgeGUIMenu;
 import net.mcreator.minefinity.world.inventory.NetherBrickFurnaceGUIMenu;
+import net.mcreator.minefinity.world.inventory.EndergizerGUIMenu;
 import net.mcreator.minefinity.world.inventory.CrushingHammer3GUIMenu;
 import net.mcreator.minefinity.world.inventory.CrushingHammer2GUIMenu;
 import net.mcreator.minefinity.world.inventory.CrushingHammer1GUIMenu;
+import net.mcreator.minefinity.world.inventory.BlazewoodPurifierGUIMenu;
 import net.mcreator.minefinity.world.inventory.BasicAltarGUIMenu;
 
 import java.util.List;
@@ -37,6 +39,10 @@ public class MinefinityModMenus {
 			(id, inv, extraData) -> new NetherheartForgeGUIMenu(id, inv, extraData));
 	public static final MenuType<BasicAltarGUIMenu> BASIC_ALTAR_GUI = register("basic_altar_gui",
 			(id, inv, extraData) -> new BasicAltarGUIMenu(id, inv, extraData));
+	public static final MenuType<BlazewoodPurifierGUIMenu> BLAZEWOOD_PURIFIER_GUI = register("blazewood_purifier_gui",
+			(id, inv, extraData) -> new BlazewoodPurifierGUIMenu(id, inv, extraData));
+	public static final MenuType<EndergizerGUIMenu> ENDERGIZER_GUI = register("endergizer_gui",
+			(id, inv, extraData) -> new EndergizerGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

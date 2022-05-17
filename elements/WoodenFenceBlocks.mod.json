@@ -7,6 +7,15 @@
     "blocks": [
       {
         "value": "CUSTOM:BlazewoodFence"
+      },
+      {
+        "value": "CUSTOM:BlazewoodFenceGate"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodFence"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodFenceGate"
       }
     ],
     "functions": [],

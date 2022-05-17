@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minefinity:blazewart_block"
+    "minefinity:blazewart_block",
+    "minefinity:chorus_light"
   ]
 }

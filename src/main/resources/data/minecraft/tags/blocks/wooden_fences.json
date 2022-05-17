@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "minefinity:blazewood_fence"
+    "minefinity:choruswood_fence_gate",
+    "minefinity:choruswood_fence",
+    "minefinity:blazewood_fence",
+    "minefinity:blazewood_fence_gate"
   ]
 }

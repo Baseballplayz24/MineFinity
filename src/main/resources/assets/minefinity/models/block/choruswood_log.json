@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/log_jungle_top",
+    "up": "minefinity:blocks/log_jungle_top",
+    "north": "minefinity:blocks/log_jungle",
+    "east": "minefinity:blocks/log_jungle",
+    "south": "minefinity:blocks/log_jungle",
+    "west": "minefinity:blocks/log_jungle",
+    "particle": "minefinity:blocks/log_jungle_top"
+  }
+}

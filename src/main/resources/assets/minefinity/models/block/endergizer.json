@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/crimson_planks",
+    "up": "minefinity:blocks/endergizertop",
+    "north": "minefinity:blocks/endergizerside",
+    "east": "minefinity:blocks/endergizerside",
+    "south": "minefinity:blocks/endergizerside",
+    "west": "minefinity:blocks/endergizerside",
+    "particle": "minefinity:blocks/crimson_planks"
+  }
+}

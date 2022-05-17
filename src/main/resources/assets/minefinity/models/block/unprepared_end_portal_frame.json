@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/cobblestone",
+    "up": "minefinity:blocks/endframe_top",
+    "north": "minefinity:blocks/endframe_side",
+    "east": "minefinity:blocks/endframe_side",
+    "south": "minefinity:blocks/endframe_side",
+    "west": "minefinity:blocks/endframe_side",
+    "particle": "minefinity:blocks/cobblestone"
+  }
+}

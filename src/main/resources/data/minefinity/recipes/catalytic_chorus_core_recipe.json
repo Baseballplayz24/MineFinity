@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CWC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:chorus_core"
+    },
+    "W": {
+      "item": "minefinity:warped_stone"
+    }
+  },
+  "result": {
+    "item": "minefinity:catalytic_chorus_core",
+    "count": 8
+  }
+}

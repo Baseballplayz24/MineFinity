@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:choruswood_log"
+    }
+  },
+  "result": {
+    "item": "minefinity:choruswood_wood",
+    "count": 3
+  }
+}

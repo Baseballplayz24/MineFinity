@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:choruswood_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minefinity:choruswood_fence",
+    "count": 3
+  }
+}

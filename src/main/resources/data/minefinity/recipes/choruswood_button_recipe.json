@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:choruswood_planks"
+    }
+  ],
+  "result": {
+    "item": "minefinity:choruswood_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minefinity:block/choruswood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minefinity:block/choruswood_log"
+    },
+    "axis=z": {
+      "model": "minefinity:block/choruswood_log",
+      "x": 90
+    }
+  }
+}

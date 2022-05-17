@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minefinity:block/blazewood_purifier"
+    },
+    "type=top": {
+      "model": "minefinity:block/blazewood_purifier_top"
+    },
+    "type=double": {
+      "model": "minefinity:block/blazewood_purifier_full"
+    }
+  }
+}

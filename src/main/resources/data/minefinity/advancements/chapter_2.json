@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minefinity:textures/end_stone.png",
+    "icon": {
+      "item": "minefinity:netherheart_forge"
+    },
+    "title": {
+      "translate": "advancements.chapter_2.title"
+    },
+    "description": {
+      "translate": "advancements.chapter_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "chapter_2": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:netherheart_forge"
+          ]
+        }
+      }
+    }
+  }
+}

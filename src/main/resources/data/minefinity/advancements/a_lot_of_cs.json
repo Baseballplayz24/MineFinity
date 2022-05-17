@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:catalytic_chorus_core"
+    },
+    "title": {
+      "translate": "advancements.a_lot_of_cs.title"
+    },
+    "description": {
+      "translate": "advancements.a_lot_of_cs.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_lot_of_cs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:catalytic_chorus_core"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minefinity:hashtag_rift_lore"
+}

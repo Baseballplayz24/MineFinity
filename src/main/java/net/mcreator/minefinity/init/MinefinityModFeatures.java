@@ -17,7 +17,9 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.minefinity.world.features.plants.EnderWartFeature;
 import net.mcreator.minefinity.world.features.ores.ZincOreFeature;
+import net.mcreator.minefinity.world.features.ores.WarpedStoneFeature;
 import net.mcreator.minefinity.world.features.ores.TinOreFeature;
 import net.mcreator.minefinity.world.features.ores.SilverOreFeature;
 import net.mcreator.minefinity.world.features.ores.NickelOreFeature;
@@ -31,6 +33,7 @@ import net.mcreator.minefinity.world.features.ores.DeepslateZincOreFeature;
 import net.mcreator.minefinity.world.features.ores.DeepslateTinOreFeature;
 import net.mcreator.minefinity.world.features.ores.DeepslateNickelOreFeature;
 import net.mcreator.minefinity.world.features.ores.CobaltOreFeature;
+import net.mcreator.minefinity.world.features.ChorusIslandFeature;
 import net.mcreator.minefinity.MinefinityMod;
 
 import java.util.function.Supplier;
@@ -75,6 +78,12 @@ public class MinefinityModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, MagmiteOreFeature.GENERATE_BIOMES, MagmiteOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> GARNET_ORE = register("garnet_ore", GarnetOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, GarnetOreFeature.GENERATE_BIOMES, GarnetOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CHORUS_ISLAND = register("chorus_island", ChorusIslandFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.RAW_GENERATION, ChorusIslandFeature.GENERATE_BIOMES, ChorusIslandFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ENDER_WART = register("ender_wart", EnderWartFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, EnderWartFeature.GENERATE_BIOMES, EnderWartFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WARPED_STONE = register("warped_stone", WarpedStoneFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, WarpedStoneFeature.GENERATE_BIOMES, WarpedStoneFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

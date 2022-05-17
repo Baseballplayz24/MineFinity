@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "CEC",
+    "CCC"
+  ],
+  "key": {
+    "P": {
+      "item": "minefinity:pearlescent_ingot"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "E": {
+      "item": "minefinity:pearlescent_block"
+    }
+  },
+  "result": {
+    "item": "minefinity:unprepared_end_portal_frame",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "minefinity:block/choruswood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minefinity:block/choruswood_pressure_plate_down"
+    }
+  }
+}

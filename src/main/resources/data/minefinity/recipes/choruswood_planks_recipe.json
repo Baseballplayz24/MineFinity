@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:choruswood_log"
+    }
+  ],
+  "result": {
+    "item": "minefinity:choruswood_planks",
+    "count": 4
+  }
+}

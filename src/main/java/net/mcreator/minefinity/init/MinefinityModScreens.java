@@ -13,9 +13,11 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.minefinity.client.gui.NetherheartForgeGUIScreen;
 import net.mcreator.minefinity.client.gui.NetherBrickFurnaceGUIScreen;
+import net.mcreator.minefinity.client.gui.EndergizerGUIScreen;
 import net.mcreator.minefinity.client.gui.CrushingHammer3GUIScreen;
 import net.mcreator.minefinity.client.gui.CrushingHammer2GUIScreen;
 import net.mcreator.minefinity.client.gui.CrushingHammer1GUIScreen;
+import net.mcreator.minefinity.client.gui.BlazewoodPurifierGUIScreen;
 import net.mcreator.minefinity.client.gui.BasicAltarGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -29,6 +31,8 @@ public class MinefinityModScreens {
 			MenuScreens.register(MinefinityModMenus.CRUSHING_HAMMER_3_GUI, CrushingHammer3GUIScreen::new);
 			MenuScreens.register(MinefinityModMenus.NETHERHEART_FORGE_GUI, NetherheartForgeGUIScreen::new);
 			MenuScreens.register(MinefinityModMenus.BASIC_ALTAR_GUI, BasicAltarGUIScreen::new);
+			MenuScreens.register(MinefinityModMenus.BLAZEWOOD_PURIFIER_GUI, BlazewoodPurifierGUIScreen::new);
+			MenuScreens.register(MinefinityModMenus.ENDERGIZER_GUI, EndergizerGUIScreen::new);
 		});
 	}
 }

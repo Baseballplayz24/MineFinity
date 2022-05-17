@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minefinity:choruswood_planks"
+    }
+  },
+  "result": {
+    "item": "minefinity:choruswood_fence_gate",
+    "count": 1
+  }
+}

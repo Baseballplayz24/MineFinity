@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "#RiftLore",
+    "achievementDescription": "Mine Warped Stone in the End. Used for catalyzing Chorus Cores",
+    "achievementIcon": {
+      "value": "CUSTOM:WarpedStone"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Chapter2"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"43\" y=\"18\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">2147483647</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:WarpedStone</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

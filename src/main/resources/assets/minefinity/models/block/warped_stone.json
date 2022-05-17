@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/warpedstone",
+    "up": "minefinity:blocks/warpedstone",
+    "north": "minefinity:blocks/warpedstone",
+    "east": "minefinity:blocks/warpedstone",
+    "south": "minefinity:blocks/warpedstone",
+    "west": "minefinity:blocks/warpedstone",
+    "particle": "minefinity:blocks/warpedstone"
+  }
+}

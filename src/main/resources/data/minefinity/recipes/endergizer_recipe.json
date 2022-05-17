@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CHC",
+    "CCC",
+    "CEC"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:cobalt_ingot"
+    },
+    "H": {
+      "item": "minefinity:choruswood_planks"
+    },
+    "E": {
+      "item": "minefinity:electrum_casing"
+    }
+  },
+  "result": {
+    "item": "minefinity:endergizer",
+    "count": 1
+  }
+}

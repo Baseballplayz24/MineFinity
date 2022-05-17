@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/end_stone",
+    "up": "minefinity:blocks/chorusphyliumtop",
+    "north": "minefinity:blocks/chorusphylium",
+    "east": "minefinity:blocks/chorusphylium",
+    "south": "minefinity:blocks/chorusphylium",
+    "west": "minefinity:blocks/chorusphylium",
+    "particle": "minefinity:blocks/end_stone"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "GBG",
+    "SGS"
+  ],
+  "key": {
+    "S": {
+      "item": "minefinity:silver_dust"
+    },
+    "G": {
+      "item": "minefinity:garnet"
+    },
+    "B": {
+      "item": "minefinity:blazewood_slab"
+    }
+  },
+  "result": {
+    "item": "minefinity:blazewood_purifier",
+    "count": 1
+  }
+}

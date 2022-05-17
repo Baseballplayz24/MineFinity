@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:pearlescent_block"
+    }
+  ],
+  "result": {
+    "item": "minefinity:pearlescent_ingot",
+    "count": 9
+  }
+}

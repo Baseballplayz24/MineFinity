@@ -3,7 +3,14 @@
   "_type": "tag",
   "definition": {
     "type": "Items",
-    "items": [],
+    "items": [
+      {
+        "value": "CUSTOM:BlazewoodPlanks"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      }
+    ],
     "blocks": [],
     "functions": [],
     "entities": [],

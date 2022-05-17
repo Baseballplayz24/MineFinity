@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PearlescentIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PearlescentIngot"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "CUSTOM:PearlescentBlock"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnpreparedEndPortalFrame"
+    },
+    "name": "unprepared_end_portal_frame_recipe",
+    "namespace": "mod"
+  }
+}

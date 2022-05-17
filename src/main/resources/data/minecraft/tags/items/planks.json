@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "minefinity:blazewood_planks",
+    "minefinity:choruswood_planks"
+  ]
 }

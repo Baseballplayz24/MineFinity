@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:endergizer"
+    },
+    "title": {
+      "translate": "advancements.ender_batteries.title"
+    },
+    "description": {
+      "translate": "advancements.ender_batteries.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ender_batteries": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:endergizer"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minefinity:a_lot_of_cs"
+}

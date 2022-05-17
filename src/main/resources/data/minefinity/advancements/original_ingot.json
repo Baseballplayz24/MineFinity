@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:pearlescent_ingot"
+    },
+    "title": {
+      "translate": "advancements.original_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.original_ingot.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "original_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minefinity:pearlescent_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minefinity:chapter_2"
+}

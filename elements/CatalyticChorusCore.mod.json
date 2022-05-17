@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ruby",
+    "customModelName": "Normal",
+    "name": "Catalytic Chorus Core",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 1,
+    "recipeRemainder": {
+      "value": "CUSTOM:ChorusCore"
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onDroppedByPlayer": {
+      "name": "EnderItemIsDroppedByPlayer"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

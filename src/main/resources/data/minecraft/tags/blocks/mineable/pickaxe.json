@@ -39,6 +39,11 @@
     "minefinity:garnet_ore",
     "minefinity:garnet_block",
     "minefinity:electrum_altar",
-    "minefinity:cobalt_anchor"
+    "minefinity:cobalt_anchor",
+    "minefinity:chorus_phylium",
+    "minefinity:pearlescent_block",
+    "minefinity:warped_stone",
+    "minefinity:unprepared_end_portal_frame",
+    "minefinity:endergizer"
   ]
 }

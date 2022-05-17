@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "advancements.im_not_hacking.title"
+    },
+    "description": {
+      "translate": "advancements.im_not_hacking.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "im_not_hacking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_portal_frame"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minefinity:original_ingot"
+}

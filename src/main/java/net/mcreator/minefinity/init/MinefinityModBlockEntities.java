@@ -15,7 +15,9 @@ import net.mcreator.minefinity.block.entity.NetherheartForgeBlockEntity;
 import net.mcreator.minefinity.block.entity.NetherBrickFurnaceBlockEntity;
 import net.mcreator.minefinity.block.entity.MetallicCrushingHammerBlockEntity;
 import net.mcreator.minefinity.block.entity.InfernalCrushingHammerBlockEntity;
+import net.mcreator.minefinity.block.entity.EndergizerBlockEntity;
 import net.mcreator.minefinity.block.entity.ElectrumAltarBlockEntity;
+import net.mcreator.minefinity.block.entity.BlazewoodPurifierBlockEntity;
 import net.mcreator.minefinity.block.entity.BejeweledCrushingHammerBlockEntity;
 import net.mcreator.minefinity.MinefinityMod;
 
@@ -33,6 +35,10 @@ public class MinefinityModBlockEntities {
 			NetherheartForgeBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ELECTRUM_ALTAR = register("electrum_altar", MinefinityModBlocks.ELECTRUM_ALTAR,
 			ElectrumAltarBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BLAZEWOOD_PURIFIER = register("blazewood_purifier", MinefinityModBlocks.BLAZEWOOD_PURIFIER,
+			BlazewoodPurifierBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ENDERGIZER = register("endergizer", MinefinityModBlocks.ENDERGIZER,
+			EndergizerBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

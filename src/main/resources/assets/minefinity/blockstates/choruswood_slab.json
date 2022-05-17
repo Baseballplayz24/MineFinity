@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minefinity:block/choruswood_slab"
+    },
+    "type=top": {
+      "model": "minefinity:block/choruswood_slab_top"
+    },
+    "type=double": {
+      "model": "minefinity:block/choruswood_slab_full"
+    }
+  }
+}

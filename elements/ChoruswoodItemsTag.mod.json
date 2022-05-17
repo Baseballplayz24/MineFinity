@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChoruswoodWood"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "choruswood_log",
+    "namespace": "forge"
+  }
+}

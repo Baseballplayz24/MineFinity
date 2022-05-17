@@ -37,6 +37,8 @@ import net.mcreator.minefinity.item.RawSilverItem;
 import net.mcreator.minefinity.item.RawNickelItem;
 import net.mcreator.minefinity.item.RawMagmiteItem;
 import net.mcreator.minefinity.item.RawCobaltItem;
+import net.mcreator.minefinity.item.PearlescentNuggetItem;
+import net.mcreator.minefinity.item.PearlescentIngotItem;
 import net.mcreator.minefinity.item.NickelNuggetItem;
 import net.mcreator.minefinity.item.NickelIngotItem;
 import net.mcreator.minefinity.item.NickelDustItem;
@@ -49,6 +51,8 @@ import net.mcreator.minefinity.item.NetheriteAppleItem;
 import net.mcreator.minefinity.item.NetherheartForgeSmeltingModuleItem;
 import net.mcreator.minefinity.item.NetherheartForgeCraftingModuleItem;
 import net.mcreator.minefinity.item.NetherheartForgeAlloyingModuleItem;
+import net.mcreator.minefinity.item.NetherWheatItem;
+import net.mcreator.minefinity.item.NetherBreadItem;
 import net.mcreator.minefinity.item.MagmiteSwordItem;
 import net.mcreator.minefinity.item.MagmiteShovelItem;
 import net.mcreator.minefinity.item.MagmitePickaxeItem;
@@ -92,6 +96,8 @@ import net.mcreator.minefinity.item.CobaltDustItem;
 import net.mcreator.minefinity.item.CobaltAxeItem;
 import net.mcreator.minefinity.item.CobaltArmorItem;
 import net.mcreator.minefinity.item.CobaltAppleItem;
+import net.mcreator.minefinity.item.ChorusCoreItem;
+import net.mcreator.minefinity.item.CatalyticChorusCoreItem;
 import net.mcreator.minefinity.item.BronzeNuggetItem;
 import net.mcreator.minefinity.item.BronzeIngotItem;
 import net.mcreator.minefinity.item.BrassNuggetItem;
@@ -289,6 +295,33 @@ public class MinefinityModItems {
 			MinefinityModTabs.TAB_MINEFINITY_NETHER);
 	public static final RegistryObject<Item> MAGMITE_DUST_BLOCK = block(MinefinityModBlocks.MAGMITE_DUST_BLOCK,
 			MinefinityModTabs.TAB_MINEFINITY_NETHER);
+	public static final RegistryObject<Item> NETHER_WHEAT = REGISTRY.register("nether_wheat", () -> new NetherWheatItem());
+	public static final RegistryObject<Item> NETHER_BREAD = REGISTRY.register("nether_bread", () -> new NetherBreadItem());
+	public static final RegistryObject<Item> BLAZEWOOD_PURIFIER = block(MinefinityModBlocks.BLAZEWOOD_PURIFIER,
+			MinefinityModTabs.TAB_MINEFINITY_NETHER);
+	public static final RegistryObject<Item> CHORUS_PHYLIUM = block(MinefinityModBlocks.CHORUS_PHYLIUM, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_WOOD = block(MinefinityModBlocks.CHORUSWOOD_WOOD, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_LOG = block(MinefinityModBlocks.CHORUSWOOD_LOG, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_PLANKS = block(MinefinityModBlocks.CHORUSWOOD_PLANKS, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_STAIRS = block(MinefinityModBlocks.CHORUSWOOD_STAIRS, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_SLAB = block(MinefinityModBlocks.CHORUSWOOD_SLAB, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_FENCE = block(MinefinityModBlocks.CHORUSWOOD_FENCE, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_FENCE_GATE = block(MinefinityModBlocks.CHORUSWOOD_FENCE_GATE,
+			MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_PRESSURE_PLATE = block(MinefinityModBlocks.CHORUSWOOD_PRESSURE_PLATE,
+			MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUSWOOD_BUTTON = block(MinefinityModBlocks.CHORUSWOOD_BUTTON, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUS_LIGHT = block(MinefinityModBlocks.CHORUS_LIGHT, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> PEARLESCENT_INGOT = REGISTRY.register("pearlescent_ingot", () -> new PearlescentIngotItem());
+	public static final RegistryObject<Item> PEARLESCENT_BLOCK = block(MinefinityModBlocks.PEARLESCENT_BLOCK, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> PEARLESCENT_NUGGET = REGISTRY.register("pearlescent_nugget", () -> new PearlescentNuggetItem());
+	public static final RegistryObject<Item> ENDER_WART = block(MinefinityModBlocks.ENDER_WART, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> CHORUS_CORE = REGISTRY.register("chorus_core", () -> new ChorusCoreItem());
+	public static final RegistryObject<Item> CATALYTIC_CHORUS_CORE = REGISTRY.register("catalytic_chorus_core", () -> new CatalyticChorusCoreItem());
+	public static final RegistryObject<Item> WARPED_STONE = block(MinefinityModBlocks.WARPED_STONE, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> UNPREPARED_END_PORTAL_FRAME = block(MinefinityModBlocks.UNPREPARED_END_PORTAL_FRAME,
+			MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> ENDERGIZER = block(MinefinityModBlocks.ENDERGIZER, MinefinityModTabs.TAB_MINEFINITY_NETHER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -18,6 +18,8 @@ import net.mcreator.minefinity.block.ZincOreBlock;
 import net.mcreator.minefinity.block.ZincDustBlockBlock;
 import net.mcreator.minefinity.block.ZincBlockBlock;
 import net.mcreator.minefinity.block.WoodCasingBlock;
+import net.mcreator.minefinity.block.WarpedStoneBlock;
+import net.mcreator.minefinity.block.UnpreparedEndPortalFrameBlock;
 import net.mcreator.minefinity.block.TinOreBlock;
 import net.mcreator.minefinity.block.TinDustBlockBlock;
 import net.mcreator.minefinity.block.TinBlockBlock;
@@ -32,6 +34,7 @@ import net.mcreator.minefinity.block.RawSilverBlockBlock;
 import net.mcreator.minefinity.block.RawNickelBlockBlock;
 import net.mcreator.minefinity.block.RawMagmiteBlockBlock;
 import net.mcreator.minefinity.block.RawCobaltBlockBlock;
+import net.mcreator.minefinity.block.PearlescentBlockBlock;
 import net.mcreator.minefinity.block.NickelOreBlock;
 import net.mcreator.minefinity.block.NickelDustBlockBlock;
 import net.mcreator.minefinity.block.NickelBlockBlock;
@@ -51,6 +54,8 @@ import net.mcreator.minefinity.block.InfernalCrushingHammerBlock;
 import net.mcreator.minefinity.block.GoldDustBlockBlock;
 import net.mcreator.minefinity.block.GarnetOreBlock;
 import net.mcreator.minefinity.block.GarnetBlockBlock;
+import net.mcreator.minefinity.block.EndergizerBlock;
+import net.mcreator.minefinity.block.EnderWartBlock;
 import net.mcreator.minefinity.block.ElectrumCasingBlock;
 import net.mcreator.minefinity.block.ElectrumBlockBlock;
 import net.mcreator.minefinity.block.ElectrumAltarBlock;
@@ -63,6 +68,17 @@ import net.mcreator.minefinity.block.CobaltOreBlock;
 import net.mcreator.minefinity.block.CobaltDustBlockBlock;
 import net.mcreator.minefinity.block.CobaltBlockBlock;
 import net.mcreator.minefinity.block.CobaltAnchorBlock;
+import net.mcreator.minefinity.block.ChoruswoodWoodBlock;
+import net.mcreator.minefinity.block.ChoruswoodStairsBlock;
+import net.mcreator.minefinity.block.ChoruswoodSlabBlock;
+import net.mcreator.minefinity.block.ChoruswoodPressurePlateBlock;
+import net.mcreator.minefinity.block.ChoruswoodPlanksBlock;
+import net.mcreator.minefinity.block.ChoruswoodLogBlock;
+import net.mcreator.minefinity.block.ChoruswoodFenceGateBlock;
+import net.mcreator.minefinity.block.ChoruswoodFenceBlock;
+import net.mcreator.minefinity.block.ChoruswoodButtonBlock;
+import net.mcreator.minefinity.block.ChorusPhyliumBlock;
+import net.mcreator.minefinity.block.ChorusLightBlock;
 import net.mcreator.minefinity.block.BurntNetherrackBlock;
 import net.mcreator.minefinity.block.BurningNyliumBlock;
 import net.mcreator.minefinity.block.BronzeBlockBlock;
@@ -70,6 +86,7 @@ import net.mcreator.minefinity.block.BrassBlockBlock;
 import net.mcreator.minefinity.block.BlazewoodWoodBlock;
 import net.mcreator.minefinity.block.BlazewoodStairsBlock;
 import net.mcreator.minefinity.block.BlazewoodSlabBlock;
+import net.mcreator.minefinity.block.BlazewoodPurifierBlock;
 import net.mcreator.minefinity.block.BlazewoodPressurePlateBlock;
 import net.mcreator.minefinity.block.BlazewoodPlanksBlock;
 import net.mcreator.minefinity.block.BlazewoodLogBlock;
@@ -150,12 +167,33 @@ public class MinefinityModBlocks {
 	public static final RegistryObject<Block> SILVER_DUST_BLOCK = REGISTRY.register("silver_dust_block", () -> new SilverDustBlockBlock());
 	public static final RegistryObject<Block> COBALT_DUST_BLOCK = REGISTRY.register("cobalt_dust_block", () -> new CobaltDustBlockBlock());
 	public static final RegistryObject<Block> MAGMITE_DUST_BLOCK = REGISTRY.register("magmite_dust_block", () -> new MagmiteDustBlockBlock());
+	public static final RegistryObject<Block> BLAZEWOOD_PURIFIER = REGISTRY.register("blazewood_purifier", () -> new BlazewoodPurifierBlock());
+	public static final RegistryObject<Block> CHORUS_PHYLIUM = REGISTRY.register("chorus_phylium", () -> new ChorusPhyliumBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_WOOD = REGISTRY.register("choruswood_wood", () -> new ChoruswoodWoodBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_LOG = REGISTRY.register("choruswood_log", () -> new ChoruswoodLogBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_PLANKS = REGISTRY.register("choruswood_planks", () -> new ChoruswoodPlanksBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_STAIRS = REGISTRY.register("choruswood_stairs", () -> new ChoruswoodStairsBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_SLAB = REGISTRY.register("choruswood_slab", () -> new ChoruswoodSlabBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_FENCE = REGISTRY.register("choruswood_fence", () -> new ChoruswoodFenceBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_FENCE_GATE = REGISTRY.register("choruswood_fence_gate",
+			() -> new ChoruswoodFenceGateBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_PRESSURE_PLATE = REGISTRY.register("choruswood_pressure_plate",
+			() -> new ChoruswoodPressurePlateBlock());
+	public static final RegistryObject<Block> CHORUSWOOD_BUTTON = REGISTRY.register("choruswood_button", () -> new ChoruswoodButtonBlock());
+	public static final RegistryObject<Block> CHORUS_LIGHT = REGISTRY.register("chorus_light", () -> new ChorusLightBlock());
+	public static final RegistryObject<Block> PEARLESCENT_BLOCK = REGISTRY.register("pearlescent_block", () -> new PearlescentBlockBlock());
+	public static final RegistryObject<Block> ENDER_WART = REGISTRY.register("ender_wart", () -> new EnderWartBlock());
+	public static final RegistryObject<Block> WARPED_STONE = REGISTRY.register("warped_stone", () -> new WarpedStoneBlock());
+	public static final RegistryObject<Block> UNPREPARED_END_PORTAL_FRAME = REGISTRY.register("unprepared_end_portal_frame",
+			() -> new UnpreparedEndPortalFrameBlock());
+	public static final RegistryObject<Block> ENDERGIZER = REGISTRY.register("endergizer", () -> new EndergizerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ElectrumAltarBlock.registerRenderLayer();
+			EnderWartBlock.registerRenderLayer();
 		}
 	}
 }

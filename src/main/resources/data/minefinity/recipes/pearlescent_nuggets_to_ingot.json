@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:pearlescent_nugget"
+    }
+  },
+  "result": {
+    "item": "minefinity:pearlescent_ingot",
+    "count": 1
+  }
+}
