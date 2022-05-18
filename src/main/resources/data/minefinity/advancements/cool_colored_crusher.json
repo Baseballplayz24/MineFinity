@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:endergized_crushing_hammer"
+    },
+    "title": {
+      "translate": "advancements.cool_colored_crusher.title"
+    },
+    "description": {
+      "translate": "advancements.cool_colored_crusher.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cool_colored_crusher": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:endergized_crushing_hammer"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minefinity:really_not_for_mining"
+}

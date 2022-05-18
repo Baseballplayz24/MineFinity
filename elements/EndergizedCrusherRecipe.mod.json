@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "CUSTOM:CobaltHammer"
+      },
+      {
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:InfernalCrushingHammer"
+      },
+      {
+        "value": "CUSTOM:ChoruswoodPlanks"
+      },
+      {
+        "value": "CUSTOM:CobaltIngot"
+      },
+      {
+        "value": "CUSTOM:PearlescentCasing"
+      },
+      {
+        "value": "CUSTOM:CobaltIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EndergizedCrushingHammer"
+    },
+    "name": "endergized_crusher_recipe",
+    "namespace": "mod"
+  }
+}

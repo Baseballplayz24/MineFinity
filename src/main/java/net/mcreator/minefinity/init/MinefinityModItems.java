@@ -63,6 +63,7 @@ import net.mcreator.minefinity.item.MeloditeIngotItem;
 import net.mcreator.minefinity.item.MeloditeHoeItem;
 import net.mcreator.minefinity.item.MeloditeDustItem;
 import net.mcreator.minefinity.item.MeloditeAxeItem;
+import net.mcreator.minefinity.item.MeloditeArmorItem;
 import net.mcreator.minefinity.item.MagmiteSwordItem;
 import net.mcreator.minefinity.item.MagmiteShovelItem;
 import net.mcreator.minefinity.item.MagmitePickaxeItem;
@@ -349,6 +350,12 @@ public class MinefinityModItems {
 	public static final RegistryObject<Item> MELODITE_SHOVEL = REGISTRY.register("melodite_shovel", () -> new MeloditeShovelItem());
 	public static final RegistryObject<Item> MELODITE_HOE = REGISTRY.register("melodite_hoe", () -> new MeloditeHoeItem());
 	public static final RegistryObject<Item> MELODITE_ROD = REGISTRY.register("melodite_rod", () -> new MeloditeRodItem());
+	public static final RegistryObject<Item> MELODITE_ARMOR_HELMET = REGISTRY.register("melodite_armor_helmet", () -> new MeloditeArmorItem.Helmet());
+	public static final RegistryObject<Item> MELODITE_ARMOR_CHESTPLATE = REGISTRY.register("melodite_armor_chestplate",
+			() -> new MeloditeArmorItem.Chestplate());
+	public static final RegistryObject<Item> MELODITE_ARMOR_LEGGINGS = REGISTRY.register("melodite_armor_leggings",
+			() -> new MeloditeArmorItem.Leggings());
+	public static final RegistryObject<Item> MELODITE_ARMOR_BOOTS = REGISTRY.register("melodite_armor_boots", () -> new MeloditeArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

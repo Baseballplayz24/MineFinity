@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "COC",
+    "HIH",
+    "CPC"
+  ],
+  "key": {
+    "C": {
+      "item": "minefinity:cobalt_ingot"
+    },
+    "O": {
+      "item": "minefinity:cobalt_hammer"
+    },
+    "H": {
+      "item": "minefinity:choruswood_planks"
+    },
+    "I": {
+      "item": "minefinity:infernal_crushing_hammer"
+    },
+    "P": {
+      "item": "minefinity:pearlescent_casing"
+    }
+  },
+  "result": {
+    "item": "minefinity:endergized_crushing_hammer",
+    "count": 1
+  }
+}

@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ElectrumIngot"
-      },
-      {
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "CUSTOM:ElectrumIngot"
+        "value": "CUSTOM:NetheriteHammer"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
       },
       {
         "value": "CUSTOM:SilverIngot"

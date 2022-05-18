@@ -1,0 +1,62 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "meloditehelmet",
+    "enableBody": true,
+    "textureBody": "meloditechestplate",
+    "enableLeggings": true,
+    "textureLeggings": "meloditeleggings",
+    "enableBoots": true,
+    "textureBoots": "meloditeboots",
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "armorTextureFile": "melodite_",
+    "helmetName": "Melodite Helmet",
+    "bodyName": "Melodite Chestplate",
+    "leggingsName": "Melodite Leggings",
+    "bootsName": "Melodite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 45,
+    "damageValueHelmet": 7,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 42,
+    "toughness": 5.0,
+    "knockbackResistance": 0.33,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      }
+    ]
+  }
+}

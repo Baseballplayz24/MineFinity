@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MCM"
+  ],
+  "key": {
+    "M": {
+      "item": "minefinity:melodite_ingot"
+    },
+    "C": {
+      "item": "minefinity:cobalt_armor_helmet"
+    }
+  },
+  "result": {
+    "item": "minefinity:melodite_armor_helmet",
+    "count": 1
+  }
+}

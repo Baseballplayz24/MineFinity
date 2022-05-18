@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minefinity:pearlescent_block",
     "minefinity:tin_block",
     "minecraft:redstone_block",
     "minefinity:magmite_block",
@@ -13,6 +14,7 @@
     "minecraft:lapis_block",
     "minefinity:garnet_block",
     "minefinity:rose_gold_block",
+    "minefinity:melodite_block",
     "minefinity:brass_block",
     "minecraft:waxed_copper_block",
     "minefinity:electrum_block",

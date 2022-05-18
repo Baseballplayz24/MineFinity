@@ -1,22 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ENE",
+    "NEN",
     "SLS",
-    "EBE"
+    "CBC"
   ],
   "key": {
-    "E": {
-      "item": "minefinity:electrum_ingot"
-    },
     "N": {
       "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minefinity:netherite_hammer"
     },
     "S": {
       "item": "minefinity:silver_ingot"
     },
     "L": {
       "item": "minefinity:electrum_casing"
+    },
+    "C": {
+      "item": "minefinity:electrum_ingot"
     },
     "B": {
       "item": "minefinity:bejeweled_crushing_hammer"

@@ -55,6 +55,12 @@
       },
       {
         "value": "CUSTOM:GarnetBlock"
+      },
+      {
+        "value": "CUSTOM:PearlescentBlock"
+      },
+      {
+        "value": "CUSTOM:MeloditeBlock"
       }
     ],
     "functions": [],
