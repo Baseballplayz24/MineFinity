@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MCM",
+    " E "
+  ],
+  "key": {
+    "M": {
+      "item": "minefinity:melodite_ingot"
+    },
+    "C": {
+      "item": "minefinity:cobalt_pickaxe"
+    },
+    "E": {
+      "item": "minefinity:melodite_rod"
+    }
+  },
+  "result": {
+    "item": "minefinity:melodite_pickaxe",
+    "count": 1
+  }
+}

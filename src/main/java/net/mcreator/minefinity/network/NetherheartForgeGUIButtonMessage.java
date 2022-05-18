@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.minefinity.world.inventory.NetherheartForgeGUIMenu;
+import net.mcreator.minefinity.procedures.NetherheartForgeAlloyingProcedure;
 import net.mcreator.minefinity.procedures.NetherheartForge4x4CraftingProcedure;
 import net.mcreator.minefinity.MinefinityMod;
 
@@ -64,7 +65,11 @@ public class NetherheartForgeGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			NetherheartForge4x4CraftingProcedure.execute(world, x, y, z);
+			NetherheartForge4x4CraftingProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 1) {
+
+			NetherheartForgeAlloyingProcedure.execute(world, x, y, z);
 		}
 	}
 

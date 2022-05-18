@@ -111,6 +111,10 @@ public class NetherheartForgeGUIScreen extends AbstractContainerScreen<Netherhea
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 291, this.topPos + 92, 87, 20, new TextComponent("Alloy Metals"), e -> {
+			if (true) {
+				MinefinityMod.PACKET_HANDLER.sendToServer(new NetherheartForgeGUIButtonMessage(1, x, y, z));
+				NetherheartForgeGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 	}
 }

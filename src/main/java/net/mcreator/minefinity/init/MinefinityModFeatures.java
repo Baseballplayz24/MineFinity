@@ -24,6 +24,7 @@ import net.mcreator.minefinity.world.features.ores.TinOreFeature;
 import net.mcreator.minefinity.world.features.ores.SilverOreFeature;
 import net.mcreator.minefinity.world.features.ores.NickelOreFeature;
 import net.mcreator.minefinity.world.features.ores.NetherTinOreFeature;
+import net.mcreator.minefinity.world.features.ores.MeloditeOreFeature;
 import net.mcreator.minefinity.world.features.ores.MarbleDiamondOreFeature;
 import net.mcreator.minefinity.world.features.ores.MagmiteOreFeature;
 import net.mcreator.minefinity.world.features.ores.LigniteIronOreFeature;
@@ -84,6 +85,8 @@ public class MinefinityModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, EnderWartFeature.GENERATE_BIOMES, EnderWartFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> WARPED_STONE = register("warped_stone", WarpedStoneFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, WarpedStoneFeature.GENERATE_BIOMES, WarpedStoneFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> MELODITE_ORE = register("melodite_ore", MeloditeOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, MeloditeOreFeature.GENERATE_BIOMES, MeloditeOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

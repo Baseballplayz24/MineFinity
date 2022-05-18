@@ -448,6 +448,9 @@
         "type": "button",
         "data": {
           "text": "Alloy Metals",
+          "onClick": {
+            "name": "NetherheartForgeAlloying"
+          },
           "width": 87,
           "height": 20,
           "name": "Alloy Metals",

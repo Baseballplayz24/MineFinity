@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minefinity:blocks/meloditeblock",
+    "particle": "minefinity:blocks/meloditeblock"
+  }
+}

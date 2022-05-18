@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "meloditesword",
+    "customModelName": "Normal",
+    "name": "Melodite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 6,
+    "efficiency": 15.0,
+    "attackSpeed": 1.8,
+    "enchantability": 42,
+    "damageVsEntity": 7.0,
+    "usageCount": 4096,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

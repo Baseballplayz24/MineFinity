@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MCM",
+    " E "
+  ],
+  "key": {
+    "M": {
+      "item": "minefinity:melodite_ingot"
+    },
+    "C": {
+      "item": "minefinity:cobalt_shovel"
+    },
+    "E": {
+      "item": "minefinity:melodite_rod"
+    }
+  },
+  "result": {
+    "item": "minefinity:melodite_shovel",
+    "count": 1
+  }
+}

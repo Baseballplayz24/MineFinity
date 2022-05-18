@@ -15,6 +15,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.mcreator.minefinity.world.inventory.NetherheartForgeGUIMenu;
 import net.mcreator.minefinity.world.inventory.NetherBrickFurnaceGUIMenu;
 import net.mcreator.minefinity.world.inventory.EndergizerGUIMenu;
+import net.mcreator.minefinity.world.inventory.CrushingHammer4GUIMenu;
 import net.mcreator.minefinity.world.inventory.CrushingHammer3GUIMenu;
 import net.mcreator.minefinity.world.inventory.CrushingHammer2GUIMenu;
 import net.mcreator.minefinity.world.inventory.CrushingHammer1GUIMenu;
@@ -43,6 +44,8 @@ public class MinefinityModMenus {
 			(id, inv, extraData) -> new BlazewoodPurifierGUIMenu(id, inv, extraData));
 	public static final MenuType<EndergizerGUIMenu> ENDERGIZER_GUI = register("endergizer_gui",
 			(id, inv, extraData) -> new EndergizerGUIMenu(id, inv, extraData));
+	public static final MenuType<CrushingHammer4GUIMenu> CRUSHING_HAMMER_4_GUI = register("crushing_hammer_4_gui",
+			(id, inv, extraData) -> new CrushingHammer4GUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

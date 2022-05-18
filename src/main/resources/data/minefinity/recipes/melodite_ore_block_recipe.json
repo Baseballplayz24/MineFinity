@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minefinity:melodite_ingot"
+    }
+  },
+  "result": {
+    "item": "minefinity:melodite_block",
+    "count": 1
+  }
+}

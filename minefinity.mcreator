@@ -1986,6 +1986,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -4179,6 +4183,258 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "im_not_hacking"
+    },
+    {
+      "name": "MeloditeIngot",
+      "type": "item",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_ingot"
+    },
+    {
+      "name": "MeloditeOre",
+      "type": "block",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_ore"
+    },
+    {
+      "name": "MeloditeBlock",
+      "type": "block",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_block"
+    },
+    {
+      "name": "MeloditeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_ore_block_recipe"
+    },
+    {
+      "name": "MeloditeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_block_ore_recipe"
+    },
+    {
+      "name": "MeloditeOreSmelting",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_ore_smelting"
+    },
+    {
+      "name": "MeloditeShard",
+      "type": "item",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_shard"
+    },
+    {
+      "name": "MeloditeNugget",
+      "type": "item",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_nugget"
+    },
+    {
+      "name": "MeloditeNuggetsToIngot",
+      "type": "recipe",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_nuggets_to_ingot"
+    },
+    {
+      "name": "MeloditeIngotToNuggets",
+      "type": "recipe",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_ingot_to_nuggets"
+    },
+    {
+      "name": "CobaltHammer",
+      "type": "item",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hammer"
+    },
+    {
+      "name": "PearlescentCasing",
+      "type": "block",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearlescent_casing"
+    },
+    {
+      "name": "MeloditeDust",
+      "type": "item",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_dust"
+    },
+    {
+      "name": "MeloditeDustSmelting",
+      "type": "recipe",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_dust_smelting"
+    },
+    {
+      "name": "CrushingHammer4GUI",
+      "type": "gui",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushing_hammer_4_gui"
+    },
+    {
+      "name": "CrusherT4Operation",
+      "type": "procedure",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_t_4_operation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndergizedCrushingHammer",
+      "type": "block",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endergized_crushing_hammer"
+    },
+    {
+      "name": "MeloditePickaxe",
+      "type": "tool",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_pickaxe"
+    },
+    {
+      "name": "MeloditeAxe",
+      "type": "tool",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_axe"
+    },
+    {
+      "name": "MeloditeSword",
+      "type": "tool",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_sword"
+    },
+    {
+      "name": "MeloditeShovel",
+      "type": "tool",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_shovel"
+    },
+    {
+      "name": "MeloditeHoe",
+      "type": "tool",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_hoe"
+    },
+    {
+      "name": "MeloditePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_pickaxe_recipe"
+    },
+    {
+      "name": "MeloditeAxeRecipe",
+      "type": "recipe",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_axe_recipe"
+    },
+    {
+      "name": "MeloditeSwordRecipe",
+      "type": "recipe",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_sword_recipe"
+    },
+    {
+      "name": "MeloditeShovelRecipe",
+      "type": "recipe",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_shovel_recipe"
+    },
+    {
+      "name": "MeloditeHoeRecipe",
+      "type": "recipe",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_hoe_recipe"
+    },
+    {
+      "name": "MeloditeRod",
+      "type": "item",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_rod"
+    },
+    {
+      "name": "MeloditeRodRecipe",
+      "type": "recipe",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melodite_rod_recipe"
     }
   ],
   "variable_elements": [],
@@ -4188,9 +4444,11 @@
       "block.minefinity.brass_block": "Block of Brass",
       "item.minefinity.silver_armor_helmet": "Silver Helmet",
       "advancements.im_not_hacking.title": "I\u0027m Not Hacking, I Swear!",
+      "item.minefinity.melodite_sword": "Melodite Sword",
       "item.minefinity.magmite_armor_boots": "Magmite Boots",
       "item.minefinity.cobalt_apple": "Cobalt Apple",
       "advancements.hearts_of_iron.descr": "Make an Iron Heart to increase your max health to 12 hearts.",
+      "item.minefinity.melodite_hoe": "Melodite Hoe",
       "advancements.very_very_not_for_mining.title": "Very Very Not For Mining",
       "advancements.very_not_for_mining.title": "Very Not For Mining",
       "block.minefinity.nickel_block": "Block of Nickel",
@@ -4199,6 +4457,7 @@
       "block.minefinity.electrum_casing": "Electrum Casing",
       "block.minefinity.deepslate_zinc_ore": "Deepslate Zinc Ore",
       "item.minefinity.raw_nickel": "Raw Nickel",
+      "item.minefinity.melodite_pickaxe": "Melodite Pickaxe",
       "item.minefinity.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.minefinity.copper_dust": "Copper Dust",
       "item.minefinity.garnet_gem_armor_boots": "Garnet Boots",
@@ -4207,6 +4466,7 @@
       "block.minefinity.tin_ore": "Tin Ore",
       "item.minefinity.cobalt_shovel": "Cobalt Shovel",
       "item.minefinity.nether_bread": "Nether Bread",
+      "item.minefinity.melodite_ingot": "Melodite Ingot",
       "item.minefinity.pearlescent_ingot": "Pearlescent Ingot",
       "block.minefinity.blazewood_slab": "Blazewood Slab",
       "item.minefinity.silver_dust": "Silver Dust",
@@ -4229,6 +4489,7 @@
       "block.minefinity.blazewood_log": "Blazewood Log",
       "block.minefinity.rose_gold_block": "Block of Rose Gold",
       "item.minefinity.silver_pickaxe": "Silver Pickaxe",
+      "block.minefinity.melodite_ore": "Melodite Ore",
       "block.minefinity.choruswood_log": "Choruswood Log",
       "advancements.netherheart_yes_forge.descr": "Make a Cobalt Heart to increase max health to 18 hearts. Needs a Netherheart Forge.",
       "item.minefinity.silver_nugget": "Silver Nugget",
@@ -4250,6 +4511,7 @@
       "biome.minefinity.lignite_caves": "Lignite Caves",
       "item.minefinity.silver_armor_leggings": "Silver Leggings",
       "item.minefinity.soul_coal": "Soul Coal",
+      "item.minefinity.melodite_dust": "Melodite Dust",
       "advancements.netherheart_not_forge.title": "Netherheart Not Forge",
       "block.minefinity.choruswood_stairs": "Choruswood Stairs",
       "block.minefinity.blazewood_pressure_plate": "Blazewood Pressure Plate",
@@ -4261,6 +4523,7 @@
       "advancements.first_workstation.title": "First Workstation",
       "item.minefinity.garnet_gem_armor_helmet": "Garnet Helmet",
       "block.minefinity.raw_tin_block": "Raw Tin Block",
+      "item.minefinity.melodite_rod": "Melodite Rod",
       "item.minefinity.basalt_rod": "Basalt Rod",
       "block.minefinity.unprepared_end_portal_frame": "Unprepared End Portal Frame",
       "item.minefinity.pearlescent_nugget": "Pearlescent Nugget",
@@ -4310,6 +4573,7 @@
       "advancements.cover_me_in_cobalt.title": "Cover Me In Cobalt",
       "item.minefinity.cobalt_rod": "Cobalt Rod",
       "block.minefinity.choruswood_fence_gate": "Choruswood Fence Gate",
+      "item.minefinity.melodite_shard": "Melodite Shard",
       "block.minefinity.raw_zinc_block": "Raw Zinc Block",
       "advancements.even_more_hearts.descr": "Make a Diamond Heart to increase your max health to 14 hearts.",
       "block.minefinity.cobalt_dust_block": "Cobalt Dust Block",
@@ -4354,6 +4618,7 @@
       "block.minefinity.choruswood_slab": "Choruswood Slab",
       "advancements.cover_me_in_cobalt.descr": "Wear a full set of Cobalt Armor.",
       "block.minefinity.choruswood_fence": "Choruswood Fence",
+      "item.minefinity.cobalt_hammer": "Cobalt Hammer",
       "block.minefinity.marble": "Marble",
       "advancements.chapter_1.descr": "Many roads lie ahead... many obstacles stand in your way.",
       "biome.minefinity.mushroom_caves": "Mushroom Caves",
@@ -4368,6 +4633,7 @@
       "item.minefinity.constantan_nugget": "Constantan Nugget",
       "advancements.join_the_chorus.descr": "Find a Chorus Island in the End. Obtain its Choruswood.",
       "item.minefinity.silver_armor_chestplate": "Silver Chestplate",
+      "item.minefinity.melodite_shovel": "Melodite Shovel",
       "item.minefinity.magmite_armor_leggings": "Magmite Leggings",
       "block.minefinity.raw_cobalt_block": "Raw Cobalt Block",
       "item.minefinity.nickel_ingot": "Nickel Ingot",
@@ -4394,6 +4660,7 @@
       "item.minefinity.netherite_hammer": "Netherite Hammer",
       "block.minefinity.warped_stone": "Warped Stone",
       "block.minefinity.infernal_crushing_hammer": "Infernal Crushing Hammer",
+      "item.minefinity.melodite_nugget": "Melodite Nugget",
       "item.minefinity.silver_sword": "Silver Sword",
       "advancements.soul_coal_roll.title": "Soul Coal Roll",
       "advancements.electricium.descr": "Make Electrum in the Nether Brick Furnace with Gold and Silver.",
@@ -4410,7 +4677,9 @@
       "item.minefinity.silver_shovel": "Silver Shovel",
       "block.minefinity.netherheart_forge": "Netherheart Forge",
       "item.minefinity.iron_hammer": "Iron Hammer",
+      "block.minefinity.pearlescent_casing": "Pearlescent Casing",
       "advancements.four_ores_score.descr": "Make the Infernal Crushing Hammer, which can be used on Cobalt. Requires an Electrum Casing!",
+      "block.minefinity.endergized_crushing_hammer": "Endergized Crushing Hammer",
       "advancements.ridiculous_dedication.title": "Ridiculous Dedication",
       "item.minefinity.magmite_ingot": "Magmite Ingot",
       "advancements.tingot.descr": "Obtain Tin below y64 in Lush Caves.",
@@ -4427,6 +4696,7 @@
       "advancements.chapter_1.title": "Chapter 1: A Long Journey",
       "item.minefinity.zinc_ingot": "Zinc Ingot",
       "advancements.ender_batteries.title": "Ender Batteries?",
+      "item.minefinity.melodite_axe": "Melodite Axe",
       "item.minefinity.zinc_dust": "Zinc Dust",
       "advancements.machine_frames_part_1.title": "Machine Frames Part 1",
       "block.minefinity.raw_nickel_block": "Raw Nickel Block",
@@ -4438,6 +4708,7 @@
       "advancements.join_the_join_the_us.title": "Join The Join The ______ ____-Us",
       "item.minefinity.netherheart_forge_crafting_module": "Netherheart Forge Crafting Module",
       "advancements.original_ingot.descr": "Yes, it looks like Enderite. The \"Enderite\" in Minefinity is not this. Make a Pearlescent Ingot by smelting Ender Pearls. VERY IMPORTANT!",
+      "block.minefinity.melodite_block": "Block of Melodite",
       "item.minefinity.raw_magmite": "Raw Magmite"
     }
   },
@@ -4448,7 +4719,7 @@
   "workspaceSettings": {
     "modid": "minefinity",
     "modName": "Minefinity",
-    "version": "011",
+    "version": "012",
     "description": "The mod to end all mods.",
     "author": "Andrewthepika",
     "websiteURL": "https://mcreator.net",

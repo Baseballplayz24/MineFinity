@@ -34,6 +34,7 @@ import net.mcreator.minefinity.block.RawSilverBlockBlock;
 import net.mcreator.minefinity.block.RawNickelBlockBlock;
 import net.mcreator.minefinity.block.RawMagmiteBlockBlock;
 import net.mcreator.minefinity.block.RawCobaltBlockBlock;
+import net.mcreator.minefinity.block.PearlescentCasingBlock;
 import net.mcreator.minefinity.block.PearlescentBlockBlock;
 import net.mcreator.minefinity.block.NickelOreBlock;
 import net.mcreator.minefinity.block.NickelDustBlockBlock;
@@ -42,6 +43,8 @@ import net.mcreator.minefinity.block.NetherheartForgeBlock;
 import net.mcreator.minefinity.block.NetherTinOreBlock;
 import net.mcreator.minefinity.block.NetherBrickFurnaceBlock;
 import net.mcreator.minefinity.block.MetallicCrushingHammerBlock;
+import net.mcreator.minefinity.block.MeloditeOreBlock;
+import net.mcreator.minefinity.block.MeloditeBlockBlock;
 import net.mcreator.minefinity.block.MarbleDiamondOreBlock;
 import net.mcreator.minefinity.block.MarbleBlock;
 import net.mcreator.minefinity.block.MagmiteOreBlock;
@@ -55,6 +58,7 @@ import net.mcreator.minefinity.block.GoldDustBlockBlock;
 import net.mcreator.minefinity.block.GarnetOreBlock;
 import net.mcreator.minefinity.block.GarnetBlockBlock;
 import net.mcreator.minefinity.block.EndergizerBlock;
+import net.mcreator.minefinity.block.EndergizedCrushingHammerBlock;
 import net.mcreator.minefinity.block.EnderWartBlock;
 import net.mcreator.minefinity.block.ElectrumCasingBlock;
 import net.mcreator.minefinity.block.ElectrumBlockBlock;
@@ -187,6 +191,11 @@ public class MinefinityModBlocks {
 	public static final RegistryObject<Block> UNPREPARED_END_PORTAL_FRAME = REGISTRY.register("unprepared_end_portal_frame",
 			() -> new UnpreparedEndPortalFrameBlock());
 	public static final RegistryObject<Block> ENDERGIZER = REGISTRY.register("endergizer", () -> new EndergizerBlock());
+	public static final RegistryObject<Block> MELODITE_ORE = REGISTRY.register("melodite_ore", () -> new MeloditeOreBlock());
+	public static final RegistryObject<Block> MELODITE_BLOCK = REGISTRY.register("melodite_block", () -> new MeloditeBlockBlock());
+	public static final RegistryObject<Block> PEARLESCENT_CASING = REGISTRY.register("pearlescent_casing", () -> new PearlescentCasingBlock());
+	public static final RegistryObject<Block> ENDERGIZED_CRUSHING_HAMMER = REGISTRY.register("endergized_crushing_hammer",
+			() -> new EndergizedCrushingHammerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

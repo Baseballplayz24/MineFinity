@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "meloditehoe",
+    "customModelName": "Normal",
+    "name": "Melodite Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 15.0,
+    "attackSpeed": 6.0,
+    "enchantability": 42,
+    "damageVsEntity": 2.0,
+    "usageCount": 4096,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

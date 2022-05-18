@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:melodite_ingot"
+    }
+  ],
+  "result": {
+    "item": "minefinity:melodite_nugget",
+    "count": 9
+  }
+}

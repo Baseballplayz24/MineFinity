@@ -53,6 +53,16 @@ import net.mcreator.minefinity.item.NetherheartForgeCraftingModuleItem;
 import net.mcreator.minefinity.item.NetherheartForgeAlloyingModuleItem;
 import net.mcreator.minefinity.item.NetherWheatItem;
 import net.mcreator.minefinity.item.NetherBreadItem;
+import net.mcreator.minefinity.item.MeloditeSwordItem;
+import net.mcreator.minefinity.item.MeloditeShovelItem;
+import net.mcreator.minefinity.item.MeloditeShardItem;
+import net.mcreator.minefinity.item.MeloditeRodItem;
+import net.mcreator.minefinity.item.MeloditePickaxeItem;
+import net.mcreator.minefinity.item.MeloditeNuggetItem;
+import net.mcreator.minefinity.item.MeloditeIngotItem;
+import net.mcreator.minefinity.item.MeloditeHoeItem;
+import net.mcreator.minefinity.item.MeloditeDustItem;
+import net.mcreator.minefinity.item.MeloditeAxeItem;
 import net.mcreator.minefinity.item.MagmiteSwordItem;
 import net.mcreator.minefinity.item.MagmiteShovelItem;
 import net.mcreator.minefinity.item.MagmitePickaxeItem;
@@ -92,6 +102,7 @@ import net.mcreator.minefinity.item.CobaltNuggetItem;
 import net.mcreator.minefinity.item.CobaltIngotItem;
 import net.mcreator.minefinity.item.CobaltHoeItem;
 import net.mcreator.minefinity.item.CobaltHeartItem;
+import net.mcreator.minefinity.item.CobaltHammerItem;
 import net.mcreator.minefinity.item.CobaltDustItem;
 import net.mcreator.minefinity.item.CobaltAxeItem;
 import net.mcreator.minefinity.item.CobaltArmorItem;
@@ -322,6 +333,22 @@ public class MinefinityModItems {
 	public static final RegistryObject<Item> UNPREPARED_END_PORTAL_FRAME = block(MinefinityModBlocks.UNPREPARED_END_PORTAL_FRAME,
 			MinefinityModTabs.TAB_MINEFINITY_END);
 	public static final RegistryObject<Item> ENDERGIZER = block(MinefinityModBlocks.ENDERGIZER, MinefinityModTabs.TAB_MINEFINITY_NETHER);
+	public static final RegistryObject<Item> MELODITE_INGOT = REGISTRY.register("melodite_ingot", () -> new MeloditeIngotItem());
+	public static final RegistryObject<Item> MELODITE_ORE = block(MinefinityModBlocks.MELODITE_ORE, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> MELODITE_BLOCK = block(MinefinityModBlocks.MELODITE_BLOCK, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> MELODITE_SHARD = REGISTRY.register("melodite_shard", () -> new MeloditeShardItem());
+	public static final RegistryObject<Item> MELODITE_NUGGET = REGISTRY.register("melodite_nugget", () -> new MeloditeNuggetItem());
+	public static final RegistryObject<Item> COBALT_HAMMER = REGISTRY.register("cobalt_hammer", () -> new CobaltHammerItem());
+	public static final RegistryObject<Item> PEARLESCENT_CASING = block(MinefinityModBlocks.PEARLESCENT_CASING, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> MELODITE_DUST = REGISTRY.register("melodite_dust", () -> new MeloditeDustItem());
+	public static final RegistryObject<Item> ENDERGIZED_CRUSHING_HAMMER = block(MinefinityModBlocks.ENDERGIZED_CRUSHING_HAMMER,
+			MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> MELODITE_PICKAXE = REGISTRY.register("melodite_pickaxe", () -> new MeloditePickaxeItem());
+	public static final RegistryObject<Item> MELODITE_AXE = REGISTRY.register("melodite_axe", () -> new MeloditeAxeItem());
+	public static final RegistryObject<Item> MELODITE_SWORD = REGISTRY.register("melodite_sword", () -> new MeloditeSwordItem());
+	public static final RegistryObject<Item> MELODITE_SHOVEL = REGISTRY.register("melodite_shovel", () -> new MeloditeShovelItem());
+	public static final RegistryObject<Item> MELODITE_HOE = REGISTRY.register("melodite_hoe", () -> new MeloditeHoeItem());
+	public static final RegistryObject<Item> MELODITE_ROD = REGISTRY.register("melodite_rod", () -> new MeloditeRodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

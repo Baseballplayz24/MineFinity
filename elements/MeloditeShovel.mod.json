@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "meloditeshovel",
+    "customModelName": "Normal",
+    "name": "Melodite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 6,
+    "efficiency": 15.0,
+    "attackSpeed": 1.2,
+    "enchantability": 42,
+    "damageVsEntity": 4.25,
+    "usageCount": 4096,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

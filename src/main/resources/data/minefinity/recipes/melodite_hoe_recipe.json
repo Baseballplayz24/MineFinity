@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " CM",
+    "E  "
+  ],
+  "key": {
+    "M": {
+      "item": "minefinity:melodite_ingot"
+    },
+    "C": {
+      "item": "minefinity:cobalt_hoe"
+    },
+    "E": {
+      "item": "minefinity:melodite_rod"
+    }
+  },
+  "result": {
+    "item": "minefinity:melodite_hoe",
+    "count": 1
+  }
+}

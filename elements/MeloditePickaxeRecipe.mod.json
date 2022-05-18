@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      },
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      },
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      },
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      },
+      {
+        "value": "CUSTOM:CobaltPickaxe"
+      },
+      {
+        "value": "CUSTOM:MeloditeIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MeloditeRod"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MeloditePickaxe"
+    },
+    "name": "melodite_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}
