@@ -4537,6 +4537,58 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cool_colored_crusher"
+    },
+    {
+      "name": "WandOfEnderRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_ender_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WandOfEnder",
+      "type": "item",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_ender"
+    },
+    {
+      "name": "WandOfEnderRecipe",
+      "type": "recipe",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_ender_recipe"
     }
   ],
   "variable_elements": [],
@@ -4547,19 +4599,19 @@
       "item.minefinity.silver_armor_helmet": "Silver Helmet",
       "advancements.im_not_hacking.title": "I\u0027m Not Hacking, I Swear!",
       "item.minefinity.melodite_sword": "Melodite Sword",
-      "item.minefinity.magmite_armor_boots": "Magmite Boots",
       "item.minefinity.cobalt_apple": "Cobalt Apple",
+      "item.minefinity.magmite_armor_boots": "Magmite Boots",
       "advancements.hearts_of_iron.descr": "Make an Iron Heart to increase your max health to 12 hearts.",
       "item.minefinity.melodite_hoe": "Melodite Hoe",
       "advancements.very_very_not_for_mining.title": "Very Very Not For Mining",
       "advancements.very_not_for_mining.title": "Very Not For Mining",
       "advancements.a_sweet_melody.descr": "Obtain Melodite Ore in the End. Requires Cobalt or better pickaxe.",
       "block.minefinity.nickel_block": "Block of Nickel",
-      "block.minefinity.silver_block": "Block of Silver",
       "advancements.a_lot_of_cs.descr": "Make Catalytic Chorus Cores with Chorus Cores and Warped Stone. VERY IMPORTANT!",
+      "block.minefinity.silver_block": "Block of Silver",
       "block.minefinity.electrum_casing": "Electrum Casing",
-      "block.minefinity.deepslate_zinc_ore": "Deepslate Zinc Ore",
       "item.minefinity.raw_nickel": "Raw Nickel",
+      "block.minefinity.deepslate_zinc_ore": "Deepslate Zinc Ore",
       "item.minefinity.melodite_pickaxe": "Melodite Pickaxe",
       "item.minefinity.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.minefinity.copper_dust": "Copper Dust",
@@ -4573,16 +4625,16 @@
       "item.minefinity.pearlescent_ingot": "Pearlescent Ingot",
       "block.minefinity.blazewood_slab": "Blazewood Slab",
       "item.minefinity.silver_dust": "Silver Dust",
-      "advancements.sliver_of_silver.descr": "Find Silver in the Nether at any elevation.",
       "block.minefinity.zinc_dust_block": "Zinc Dust Block",
+      "advancements.sliver_of_silver.descr": "Find Silver in the Nether at any elevation.",
       "item.minefinity.constantan_ingot": "Constantan Ingot",
       "block.minefinity.nether_tin_ore": "Nether Tin Ore",
-      "block.minefinity.blazewart_block": "Blazewart Block",
       "block.minefinity.lignite_iron_ore": "Lignite Iron Ore",
+      "block.minefinity.blazewart_block": "Blazewart Block",
       "item.minefinity.melodite_armor_helmet": "Melodite Helmet",
-      "biome.minefinity.marble_caves": "Marble Caves",
-      "item.minefinity.garnet_gem_armor_leggings": "Garnet Leggings",
       "advancements.hashtag_rift_lore.title": "#RiftLore",
+      "item.minefinity.garnet_gem_armor_leggings": "Garnet Leggings",
+      "biome.minefinity.marble_caves": "Marble Caves",
       "item.minefinity.netherite_nugget": "Netherite Nugget",
       "block.minefinity.endergizer": "Endergizer",
       "advancements.join_the_join_the_us.descr": "Make a Chorus Core with Chorus Fruit and Ender Pearls.",
@@ -4766,6 +4818,7 @@
       "advancements.a_sweet_melody.title": "A Sweet Melody Part 1",
       "advancements.shiny_new_crusher.title": "Shiny New Crusher",
       "advancements.chapter_2.title": "Chapter 2: End of the Beginning",
+      "item.minefinity.wand_of_ender": "Wand Of Ender",
       "block.minefinity.raw_magmite_block": "Raw Magmite Block",
       "item.minefinity.zinc_nugget": "Zinc Nugget",
       "block.minefinity.wood_casing": "Wood Casing",

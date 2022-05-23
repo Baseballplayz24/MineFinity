@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.minefinity.item.ZincNuggetItem;
 import net.mcreator.minefinity.item.ZincIngotItem;
 import net.mcreator.minefinity.item.ZincDustItem;
+import net.mcreator.minefinity.item.WandOfEnderItem;
 import net.mcreator.minefinity.item.TinNuggetItem;
 import net.mcreator.minefinity.item.TinIngotItem;
 import net.mcreator.minefinity.item.TinDustItem;
@@ -356,6 +357,7 @@ public class MinefinityModItems {
 	public static final RegistryObject<Item> MELODITE_ARMOR_LEGGINGS = REGISTRY.register("melodite_armor_leggings",
 			() -> new MeloditeArmorItem.Leggings());
 	public static final RegistryObject<Item> MELODITE_ARMOR_BOOTS = REGISTRY.register("melodite_armor_boots", () -> new MeloditeArmorItem.Boots());
+	public static final RegistryObject<Item> WAND_OF_ENDER = REGISTRY.register("wand_of_ender", () -> new WandOfEnderItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

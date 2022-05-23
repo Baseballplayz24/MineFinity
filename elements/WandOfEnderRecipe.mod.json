@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PearlescentIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MeloditeRod"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MeloditeRod"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WandOfEnder"
+    },
+    "name": "wand_of_ender_recipe",
+    "namespace": "mod"
+  }
+}
