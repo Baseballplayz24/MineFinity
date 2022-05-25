@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "drakonitehoe",
+    "customModelName": "Normal",
+    "name": "Drakonite Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 7,
+    "efficiency": 20.0,
+    "attackSpeed": 7.0,
+    "enchantability": 75,
+    "damageVsEntity": 1.0,
+    "usageCount": 6144,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DrakoniteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

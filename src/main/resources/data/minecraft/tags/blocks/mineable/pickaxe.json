@@ -46,6 +46,9 @@
     "minefinity:unprepared_end_portal_frame",
     "minefinity:endergizer",
     "minefinity:melodite_ore",
-    "minefinity:melodite_block"
+    "minefinity:melodite_block",
+    "minefinity:voidstone",
+    "minefinity:seed_eggstractor",
+    "minefinity:drakonite_block"
   ]
 }

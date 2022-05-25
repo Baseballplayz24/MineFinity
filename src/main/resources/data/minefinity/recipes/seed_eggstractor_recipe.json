@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MVM",
+    "CPC",
+    "MCM"
+  ],
+  "key": {
+    "M": {
+      "item": "minefinity:melodite_ingot"
+    },
+    "V": {
+      "item": "minefinity:void_crystal_fragment"
+    },
+    "C": {
+      "item": "minefinity:choruswood_planks"
+    },
+    "P": {
+      "item": "minefinity:pearlescent_casing"
+    }
+  },
+  "result": {
+    "item": "minefinity:seed_eggstractor",
+    "count": 1
+  }
+}

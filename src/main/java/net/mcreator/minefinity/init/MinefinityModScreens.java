@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.minefinity.client.gui.NetherheartForgeGUIScreen;
 import net.mcreator.minefinity.client.gui.NetherBrickFurnaceGUIScreen;
 import net.mcreator.minefinity.client.gui.EndergizerGUIScreen;
+import net.mcreator.minefinity.client.gui.EggstractorGUIScreen;
 import net.mcreator.minefinity.client.gui.CrushingHammer4GUIScreen;
 import net.mcreator.minefinity.client.gui.CrushingHammer3GUIScreen;
 import net.mcreator.minefinity.client.gui.CrushingHammer2GUIScreen;
@@ -35,6 +36,7 @@ public class MinefinityModScreens {
 			MenuScreens.register(MinefinityModMenus.BLAZEWOOD_PURIFIER_GUI, BlazewoodPurifierGUIScreen::new);
 			MenuScreens.register(MinefinityModMenus.ENDERGIZER_GUI, EndergizerGUIScreen::new);
 			MenuScreens.register(MinefinityModMenus.CRUSHING_HAMMER_4_GUI, CrushingHammer4GUIScreen::new);
+			MenuScreens.register(MinefinityModMenus.EGGSTRACTOR_GUI, EggstractorGUIScreen::new);
 		});
 	}
 }

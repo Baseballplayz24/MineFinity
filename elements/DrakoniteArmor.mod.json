@@ -1,0 +1,62 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "drakonitehelmet",
+    "enableBody": true,
+    "textureBody": "drakonitechestplate",
+    "enableLeggings": true,
+    "textureLeggings": "drakoniteleggings",
+    "enableBoots": true,
+    "textureBoots": "drakoniteboots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "drakonite_",
+    "helmetName": "Drakonite Helmet",
+    "bodyName": "Drakonite Chestplate",
+    "leggingsName": "Drakonite Leggings",
+    "bootsName": "Drakonite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 75,
+    "damageValueHelmet": 10,
+    "damageValueBody": 13,
+    "damageValueLeggings": 11,
+    "damageValueBoots": 8,
+    "enchantability": 75,
+    "toughness": 6.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:DrakoniteIngot"
+      }
+    ]
+  }
+}

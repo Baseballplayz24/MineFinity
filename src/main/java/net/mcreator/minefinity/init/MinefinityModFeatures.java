@@ -20,6 +20,7 @@ import net.minecraft.core.Holder;
 import net.mcreator.minefinity.world.features.plants.EnderWartFeature;
 import net.mcreator.minefinity.world.features.ores.ZincOreFeature;
 import net.mcreator.minefinity.world.features.ores.WarpedStoneFeature;
+import net.mcreator.minefinity.world.features.ores.VoidstoneFeature;
 import net.mcreator.minefinity.world.features.ores.TinOreFeature;
 import net.mcreator.minefinity.world.features.ores.SilverOreFeature;
 import net.mcreator.minefinity.world.features.ores.NickelOreFeature;
@@ -87,6 +88,8 @@ public class MinefinityModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, WarpedStoneFeature.GENERATE_BIOMES, WarpedStoneFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> MELODITE_ORE = register("melodite_ore", MeloditeOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, MeloditeOreFeature.GENERATE_BIOMES, MeloditeOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> VOIDSTONE = register("voidstone", VoidstoneFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, VoidstoneFeature.GENERATE_BIOMES, VoidstoneFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

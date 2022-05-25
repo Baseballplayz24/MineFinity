@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minefinity:seed_eggstractor"
+    },
+    "title": {
+      "translate": "advancements.an_infinity_of_worlds.title"
+    },
+    "description": {
+      "translate": "advancements.an_infinity_of_worlds.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_infinity_of_worlds": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minefinity:seed_eggstractor"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minefinity:a_piece_of_the_void"
+}

@@ -17,6 +17,8 @@ import net.mcreator.minefinity.item.ZincNuggetItem;
 import net.mcreator.minefinity.item.ZincIngotItem;
 import net.mcreator.minefinity.item.ZincDustItem;
 import net.mcreator.minefinity.item.WandOfEnderItem;
+import net.mcreator.minefinity.item.VoidCrystalItem;
+import net.mcreator.minefinity.item.VoidCrystalFragmentItem;
 import net.mcreator.minefinity.item.TinNuggetItem;
 import net.mcreator.minefinity.item.TinIngotItem;
 import net.mcreator.minefinity.item.TinDustItem;
@@ -89,6 +91,13 @@ import net.mcreator.minefinity.item.GarnetGemAxeItem;
 import net.mcreator.minefinity.item.GarnetGemArmorItem;
 import net.mcreator.minefinity.item.ElectrumNuggetItem;
 import net.mcreator.minefinity.item.ElectrumIngotItem;
+import net.mcreator.minefinity.item.DrakoniteSwordItem;
+import net.mcreator.minefinity.item.DrakoniteShovelItem;
+import net.mcreator.minefinity.item.DrakonitePickaxeItem;
+import net.mcreator.minefinity.item.DrakoniteIngotItem;
+import net.mcreator.minefinity.item.DrakoniteHoeItem;
+import net.mcreator.minefinity.item.DrakoniteAxeItem;
+import net.mcreator.minefinity.item.DrakoniteArmorItem;
 import net.mcreator.minefinity.item.DiamondHeartItem;
 import net.mcreator.minefinity.item.DiamondHammerItem;
 import net.mcreator.minefinity.item.DiamondAppleItem;
@@ -358,6 +367,24 @@ public class MinefinityModItems {
 			() -> new MeloditeArmorItem.Leggings());
 	public static final RegistryObject<Item> MELODITE_ARMOR_BOOTS = REGISTRY.register("melodite_armor_boots", () -> new MeloditeArmorItem.Boots());
 	public static final RegistryObject<Item> WAND_OF_ENDER = REGISTRY.register("wand_of_ender", () -> new WandOfEnderItem());
+	public static final RegistryObject<Item> VOIDSTONE = block(MinefinityModBlocks.VOIDSTONE, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> VOID_CRYSTAL_FRAGMENT = REGISTRY.register("void_crystal_fragment", () -> new VoidCrystalFragmentItem());
+	public static final RegistryObject<Item> SEED_EGGSTRACTOR = block(MinefinityModBlocks.SEED_EGGSTRACTOR, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> DRAKONITE_INGOT = REGISTRY.register("drakonite_ingot", () -> new DrakoniteIngotItem());
+	public static final RegistryObject<Item> DRAKONITE_BLOCK = block(MinefinityModBlocks.DRAKONITE_BLOCK, MinefinityModTabs.TAB_MINEFINITY_END);
+	public static final RegistryObject<Item> DRAKONITE_PICKAXE = REGISTRY.register("drakonite_pickaxe", () -> new DrakonitePickaxeItem());
+	public static final RegistryObject<Item> DRAKONITE_AXE = REGISTRY.register("drakonite_axe", () -> new DrakoniteAxeItem());
+	public static final RegistryObject<Item> DRAKONITE_SWORD = REGISTRY.register("drakonite_sword", () -> new DrakoniteSwordItem());
+	public static final RegistryObject<Item> DRAKONITE_SHOVEL = REGISTRY.register("drakonite_shovel", () -> new DrakoniteShovelItem());
+	public static final RegistryObject<Item> DRAKONITE_HOE = REGISTRY.register("drakonite_hoe", () -> new DrakoniteHoeItem());
+	public static final RegistryObject<Item> DRAKONITE_ARMOR_HELMET = REGISTRY.register("drakonite_armor_helmet",
+			() -> new DrakoniteArmorItem.Helmet());
+	public static final RegistryObject<Item> DRAKONITE_ARMOR_CHESTPLATE = REGISTRY.register("drakonite_armor_chestplate",
+			() -> new DrakoniteArmorItem.Chestplate());
+	public static final RegistryObject<Item> DRAKONITE_ARMOR_LEGGINGS = REGISTRY.register("drakonite_armor_leggings",
+			() -> new DrakoniteArmorItem.Leggings());
+	public static final RegistryObject<Item> DRAKONITE_ARMOR_BOOTS = REGISTRY.register("drakonite_armor_boots", () -> new DrakoniteArmorItem.Boots());
+	public static final RegistryObject<Item> VOID_CRYSTAL = REGISTRY.register("void_crystal", () -> new VoidCrystalItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

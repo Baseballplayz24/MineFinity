@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minefinity:blocks/voidstoneanimated",
+    "up": "minefinity:blocks/voidstoneanimated",
+    "north": "minefinity:blocks/voidstoneanimated",
+    "east": "minefinity:blocks/voidstoneanimated",
+    "south": "minefinity:blocks/voidstoneanimated",
+    "west": "minefinity:blocks/voidstoneanimated",
+    "particle": "minefinity:blocks/voidstoneanimated"
+  }
+}

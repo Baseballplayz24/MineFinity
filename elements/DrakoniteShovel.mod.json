@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "drakoniteshovel",
+    "customModelName": "Normal",
+    "name": "Drakonite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinefinityEnd"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 20.0,
+    "attackSpeed": 1.4,
+    "enchantability": 75,
+    "damageVsEntity": 5.25,
+    "usageCount": 6144,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DrakoniteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

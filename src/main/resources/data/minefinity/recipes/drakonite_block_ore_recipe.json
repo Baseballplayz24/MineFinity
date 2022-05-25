@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minefinity:drakonite_block"
+    }
+  ],
+  "result": {
+    "item": "minefinity:drakonite_ingot",
+    "count": 9
+  }
+}

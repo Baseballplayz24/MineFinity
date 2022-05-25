@@ -4589,6 +4589,200 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wand_of_ender_recipe"
+    },
+    {
+      "name": "Voidstone",
+      "type": "block",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidstone"
+    },
+    {
+      "name": "VoidCrystalFragment",
+      "type": "item",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_crystal_fragment"
+    },
+    {
+      "name": "VoidstoneSmelting",
+      "type": "recipe",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidstone_smelting"
+    },
+    {
+      "name": "EggstractorGUI",
+      "type": "gui",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggstractor_gui"
+    },
+    {
+      "name": "SeedEggstractorUpdateTick",
+      "type": "procedure",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seed_eggstractor_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeedEggstractor",
+      "type": "block",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seed_eggstractor"
+    },
+    {
+      "name": "SeedEggstractorRecipe",
+      "type": "recipe",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seed_eggstractor_recipe"
+    },
+    {
+      "name": "Okay",
+      "type": "achievement",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "okay"
+    },
+    {
+      "name": "APieceOfTheVoid",
+      "type": "achievement",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_piece_of_the_void"
+    },
+    {
+      "name": "AnInfinityOfWorlds",
+      "type": "achievement",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "an_infinity_of_worlds"
+    },
+    {
+      "name": "DrakoniteIngot",
+      "type": "item",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_ingot"
+    },
+    {
+      "name": "DrakoniteBlock",
+      "type": "block",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_block"
+    },
+    {
+      "name": "DrakoniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_ore_block_recipe"
+    },
+    {
+      "name": "DrakoniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_block_ore_recipe"
+    },
+    {
+      "name": "DrakonitePickaxe",
+      "type": "tool",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_pickaxe"
+    },
+    {
+      "name": "DrakoniteAxe",
+      "type": "tool",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_axe"
+    },
+    {
+      "name": "DrakoniteSword",
+      "type": "tool",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_sword"
+    },
+    {
+      "name": "DrakoniteShovel",
+      "type": "tool",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_shovel"
+    },
+    {
+      "name": "DrakoniteHoe",
+      "type": "tool",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_hoe"
+    },
+    {
+      "name": "DrakoniteArmor",
+      "type": "armor",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drakonite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "VoidCrystal",
+      "type": "item",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_crystal"
     }
   ],
   "variable_elements": [],
@@ -4597,8 +4791,9 @@
     "en_us": {
       "block.minefinity.brass_block": "Block of Brass",
       "item.minefinity.silver_armor_helmet": "Silver Helmet",
-      "advancements.im_not_hacking.title": "I\u0027m Not Hacking, I Swear!",
       "item.minefinity.melodite_sword": "Melodite Sword",
+      "advancements.im_not_hacking.title": "I\u0027m Not Hacking, I Swear!",
+      "advancements.a_piece_of_the_void.descr": "Refine your Voidstone into a Void Crystal Fragment!",
       "item.minefinity.cobalt_apple": "Cobalt Apple",
       "item.minefinity.magmite_armor_boots": "Magmite Boots",
       "advancements.hearts_of_iron.descr": "Make an Iron Heart to increase your max health to 12 hearts.",
@@ -4607,14 +4802,16 @@
       "advancements.very_not_for_mining.title": "Very Not For Mining",
       "advancements.a_sweet_melody.descr": "Obtain Melodite Ore in the End. Requires Cobalt or better pickaxe.",
       "block.minefinity.nickel_block": "Block of Nickel",
-      "advancements.a_lot_of_cs.descr": "Make Catalytic Chorus Cores with Chorus Cores and Warped Stone. VERY IMPORTANT!",
       "block.minefinity.silver_block": "Block of Silver",
+      "advancements.a_lot_of_cs.descr": "Make Catalytic Chorus Cores with Chorus Cores and Warped Stone. VERY IMPORTANT!",
       "block.minefinity.electrum_casing": "Electrum Casing",
-      "item.minefinity.raw_nickel": "Raw Nickel",
       "block.minefinity.deepslate_zinc_ore": "Deepslate Zinc Ore",
+      "item.minefinity.raw_nickel": "Raw Nickel",
       "item.minefinity.melodite_pickaxe": "Melodite Pickaxe",
       "item.minefinity.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.minefinity.copper_dust": "Copper Dust",
+      "item.minefinity.drakonite_armor_boots": "Drakonite Boots",
+      "item.minefinity.void_crystal": "Void Crystal",
       "item.minefinity.garnet_gem_armor_boots": "Garnet Boots",
       "block.minefinity.zinc_block": "Block of Zinc",
       "advancements.ill_give_you_my_five_cents.title": "I\u0027ll Give You My Five Cents",
@@ -4632,17 +4829,19 @@
       "block.minefinity.lignite_iron_ore": "Lignite Iron Ore",
       "block.minefinity.blazewart_block": "Blazewart Block",
       "item.minefinity.melodite_armor_helmet": "Melodite Helmet",
-      "advancements.hashtag_rift_lore.title": "#RiftLore",
-      "item.minefinity.garnet_gem_armor_leggings": "Garnet Leggings",
       "biome.minefinity.marble_caves": "Marble Caves",
+      "item.minefinity.garnet_gem_armor_leggings": "Garnet Leggings",
+      "advancements.hashtag_rift_lore.title": "#RiftLore",
       "item.minefinity.netherite_nugget": "Netherite Nugget",
       "block.minefinity.endergizer": "Endergizer",
+      "item.minefinity.drakonite_armor_chestplate": "Drakonite Chestplate",
       "advancements.join_the_join_the_us.descr": "Make a Chorus Core with Chorus Fruit and Ender Pearls.",
       "item.minefinity.nickel_nugget": "Nickel Nugget",
       "block.minefinity.magmite_dust_block": "Magmite Dust Block",
       "block.minefinity.cobalt_block": "Block of Cobalt",
       "item.minefinity.magmite_apple": "Magmite Apple",
       "block.minefinity.blazewood_log": "Blazewood Log",
+      "advancements.an_infinity_of_worlds.descr": "Make a Seed Eggstractor to make infinite dragon eggs! VERY VERY IMPORTANT!",
       "block.minefinity.rose_gold_block": "Block of Rose Gold",
       "item.minefinity.silver_pickaxe": "Silver Pickaxe",
       "block.minefinity.melodite_ore": "Melodite Ore",
@@ -4655,12 +4854,16 @@
       "block.minefinity.blazewood_wood": "Blazewood Block",
       "advancements.ender_batteries.descr": "Make an Endergizer! The recipe requires Choruswood planks specifically.",
       "advancements.join_the_chorus.title": "Join The Chorus",
+      "block.minefinity.seed_eggstractor": "Seed Eggstractor",
+      "advancements.okay.title": "Okay! *throws out all cobblestone in chests*",
       "item.minefinity.silver_axe": "Silver Axe",
       "advancements.hashtag_rift_lore.descr": "Mine Warped Stone in the End. Used for catalyzing Chorus Cores",
+      "advancements.okay.descr": "Obtain Voidstone. Can only be mined with a Melodite Pickaxe. Can be found below y16 in the End.",
       "item.minefinity.rose_gold_ingot": "Rose Gold Ingot",
       "block.minefinity.iron_dust_block": "Iron Dust Block",
       "item.minefinity.bronze_nugget": "Bronze Nugget",
       "advancements.electricium.title": "Electricium",
+      "item.minefinity.drakonite_pickaxe": "Drakonite Pickaxe",
       "block.minefinity.choruswood_button": "Choruswood Button",
       "advancements.sliver_of_silver.title": "Sliver Of Silver",
       "item.minefinity.cobalt_hoe": "Cobalt Hoe",
@@ -4674,6 +4877,7 @@
       "block.minefinity.blazewood_pressure_plate": "Blazewood Pressure Plate",
       "item.minefinity.garnet_gem_shovel": "Garnet Shovel",
       "item.minefinity.netherite_apple": "Netherite Apple",
+      "item.minefinity.drakonite_hoe": "Drakonite Hoe",
       "block.minefinity.choruswood_pressure_plate": "Choruswood Pressure Plate",
       "item.minefinity.magmite_armor_chestplate": "Magmite Chestplate",
       "itemGroup.tabminefinity_end": "Minefinity End",
@@ -4690,6 +4894,7 @@
       "item.minefinity.magmite_sword": "Magmite Sword",
       "block.minefinity.deepslate_nickel_ore": "Deepslate Nickel Ore",
       "item.minefinity.cobalt_heart": "Cobalt Heart",
+      "item.minefinity.void_crystal_fragment": "Void Crystal Fragment",
       "advancements.ill_give_you_my_five_cents.descr": "Obtain Nickel below y64 in the new Mushroom Caves. You\u0027ll know where a Mushroom Cave is if you see Mooshrooms without Mycelium!",
       "item.minefinity.garnet_gem_sword": "Garnet Sword",
       "item.minefinity.garnet_gem_axe": "Garnet Axe",
@@ -4730,6 +4935,7 @@
       "item.minefinity.bronze_ingot": "Bronze Ingot",
       "advancements.machine_frames_part_3.descr": "Endergize an Electrum Casing to get a Pearlescent Casing.",
       "item.minefinity.iron_heart": "Iron Heart",
+      "block.minefinity.drakonite_block": "Block of Drakonite",
       "advancements.four_ores_score.title": "Four Ores? Score!",
       "advancements.cover_me_in_cobalt.title": "Cover Me In Cobalt",
       "item.minefinity.cobalt_rod": "Cobalt Rod",
@@ -4785,6 +4991,9 @@
       "block.minefinity.choruswood_fence": "Choruswood Fence",
       "advancements.cool_colored_crusher.title": "Cool Colored Crusher",
       "item.minefinity.cobalt_hammer": "Cobalt Hammer",
+      "item.minefinity.drakonite_ingot": "Drakonite Ingot",
+      "item.minefinity.drakonite_shovel": "Drakonite Shovel",
+      "item.minefinity.drakonite_armor_helmet": "Drakonite Helmet",
       "block.minefinity.marble": "Marble",
       "advancements.chapter_1.descr": "Many roads lie ahead... many obstacles stand in your way.",
       "biome.minefinity.mushroom_caves": "Mushroom Caves",
@@ -4795,6 +5004,7 @@
       "item.minefinity.magmite_shovel": "Magmite Shovel",
       "item.minefinity.raw_tin": "Raw Tin",
       "item.minefinity.silver_ingot": "Silver Ingot",
+      "item.minefinity.drakonite_axe": "Drakonite Axe",
       "block.minefinity.bronze_block": "Block of Bronze",
       "item.minefinity.constantan_nugget": "Constantan Nugget",
       "advancements.join_the_chorus.descr": "Find a Chorus Island in the End. Obtain its Choruswood.",
@@ -4824,10 +5034,12 @@
       "block.minefinity.wood_casing": "Wood Casing",
       "advancements.hearts_of_iron.title": "Hearts Of Iron",
       "advancements.very_not_for_mining.descr": "Make a Diamond Hammer. Used in crafting.",
+      "advancements.a_piece_of_the_void.title": "A Piece Of The Void",
       "item.minefinity.tin_dust": "Tin Dust",
       "item.minefinity.netherite_hammer": "Netherite Hammer",
       "block.minefinity.warped_stone": "Warped Stone",
       "block.minefinity.infernal_crushing_hammer": "Infernal Crushing Hammer",
+      "item.minefinity.drakonite_sword": "Drakonite Sword",
       "item.minefinity.melodite_nugget": "Melodite Nugget",
       "item.minefinity.silver_sword": "Silver Sword",
       "advancements.soul_coal_roll.title": "Soul Coal Roll",
@@ -4851,6 +5063,7 @@
       "advancements.ridiculous_dedication.title": "Ridiculous Dedication",
       "item.minefinity.magmite_ingot": "Magmite Ingot",
       "advancements.tingot.descr": "Obtain Tin below y64 in Lush Caves.",
+      "advancements.an_infinity_of_worlds.title": "An Infinity Of Worlds",
       "block.minefinity.deepslate_tin_ore": "Deepslate Tin Ore",
       "block.minefinity.blazewood_fence_gate": "Blazewood Fence Gate",
       "advancements.netherheart_yes_forge.title": "Netherheart Yes Forge",
@@ -4869,11 +5082,13 @@
       "advancements.machine_frames_part_1.title": "Machine Frames Part 1",
       "block.minefinity.raw_nickel_block": "Raw Nickel Block",
       "block.minefinity.burnt_netherrack": "Burnt Netherrack",
+      "item.minefinity.drakonite_armor_leggings": "Drakonite Leggings",
       "advancements.a_sweet_melody_2.title": "A Sweet Melody Part 2",
       "advancements.did_i_install_tinkers.title": "Did I Install Tinkers\u0027?",
       "block.minefinity.zinc_ore": "Zinc Ore",
       "block.minefinity.electrum_block": "Block of Electrum",
       "itemGroup.tabminefinity_nether": "Minefinity Nether",
+      "block.minefinity.voidstone": "Voidstone",
       "advancements.join_the_join_the_us.title": "Join The Join The ______ ____-Us",
       "advancements.really_not_for_mining.title": "Really Not For Mining",
       "item.minefinity.netherheart_forge_crafting_module": "Netherheart Forge Crafting Module",

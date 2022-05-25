@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.minefinity.block.entity.SeedEggstractorBlockEntity;
 import net.mcreator.minefinity.block.entity.NetherheartForgeBlockEntity;
 import net.mcreator.minefinity.block.entity.NetherBrickFurnaceBlockEntity;
 import net.mcreator.minefinity.block.entity.MetallicCrushingHammerBlockEntity;
@@ -42,6 +43,8 @@ public class MinefinityModBlockEntities {
 			EndergizerBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ENDERGIZED_CRUSHING_HAMMER = register("endergized_crushing_hammer",
 			MinefinityModBlocks.ENDERGIZED_CRUSHING_HAMMER, EndergizedCrushingHammerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SEED_EGGSTRACTOR = register("seed_eggstractor", MinefinityModBlocks.SEED_EGGSTRACTOR,
+			SeedEggstractorBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {
